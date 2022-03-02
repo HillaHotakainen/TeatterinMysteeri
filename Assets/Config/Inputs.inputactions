@@ -2,7 +2,7 @@
     "name": "Inputs",
     "maps": [
         {
-            "name": "Test",
+            "name": "Main",
             "id": "e0076b70-75f7-426d-9443-d4c17b44b1ad",
             "actions": [
                 {
@@ -17,7 +17,7 @@
             ],
             "bindings": [
                 {
-                    "name": "2D Vector",
+                    "name": "WASD",
                     "id": "ff0be4c2-4ddc-4dde-a820-c1a4b0b3eae5",
                     "path": "2DVector",
                     "interactions": "",
@@ -70,6 +70,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8e4dbbc5-55dd-4603-979d-ed3d60ec067e",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
