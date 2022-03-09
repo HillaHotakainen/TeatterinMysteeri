@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TileAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3048892388686381023, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -4672163745296329812, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 3786829970477001853, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 5560954434011818755, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -5012251703786577423, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 4239528737361974724, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -7995846982363831464, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -1530080802165054831, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 1807125615787039003, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 2252217939642970804, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -8305803365058092108, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -7708644975649761358, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 2157240733274199957, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 1639214462598301798, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -6614373457484812694, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 349823833441268365, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -4202638810691693305, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 4798128000316562087, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -2943289621063786373, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: 5541110501864291823, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  - {fileID: -2734800647392024937, guid: d2fe32267664c6e44a97d541a22c2d3d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - vaalea_tiili_likainen
+  - seina_valk
+  - puna_tiili_likainen
+  - seina_kolmasosa_vihr
+  - parketti_vino
+  - seina_puoli_vihr
+  - seina_borderaus
+  - seina_puoli_puna
+  - laatta_valk
+  - parketti_1
+  - seina_vihr
+  - seina_puna
+  - laatta_reuna_4
+  - laatta_reuna_3
+  - laatta_reuna_2
+  - laatta_reuna_1
+  - seina_kolmasosa_puna
+  - laatta_musta
+  - puna_tiili_puhdas
+  - harmaa_betoni
+  - vaalea_tiili_puhdas
+  m_RenderDataMap: {}
+  m_Tag: TileAtlas
+  m_IsVariant: 0
