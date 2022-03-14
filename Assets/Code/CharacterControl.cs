@@ -30,9 +30,12 @@ namespace TeatterinMysteeri
 
 		private ControlState controlState = ControlState.GamePad;
 
+		private Rigidbody2D rigidBody;
+
 		private void Awake()
 		{
-            /* Kommentoin pois toistaiseksi
+			rigidBody = GetComponent<Rigidbody2D>();
+            /* kommentoin pois toistaiseksi
 			animator = GetComponent<Animator>();
 			if (animator == null)
 			{
@@ -51,8 +54,12 @@ namespace TeatterinMysteeri
 
 		private void Update()
 		{
-			MoveCharacter();
 			//UpdateAnimator();
+		}
+
+		private void FixedUpdate()
+		{
+			MoveCharacter();
 		}
 
 		private void UpdateAnimator()
@@ -79,19 +86,20 @@ namespace TeatterinMysteeri
 			switch (controlState)
 			{
 				case ControlState.GamePad:
-					Vector2 movement = moveInput * Time.deltaTime * velocity;
+					Vector2 movement = moveInput * Time.fixedDeltaTime * velocity;
 					// transform property allows us to read and manipulate GameObject's position
 					// in the game world.
-					transform.Translate(movement);
+					rigidBody.MovePosition(rigidBody.position + movement);
+					// transform.Translate(movement);
 					break;
 
-                    /* Kommentoin pois tämän toistaiseksi, saattaa olla hyödyllinen tulevaisuudessa.
+                     //Kommentoin pois tämän toistaiseksi, saattaa olla hyödyllinen tulevaisuudessa.
 				case ControlState.Touch:
 					// Koska Vector2:sta ei voi vähentää Vector3:a, pitää suorittaa tyyppimuunnos
-					Vector3 travel = (Vector3)targetPosition - transform.position;
+					Vector2 travel = targetPosition - (Vector2)transform.position;
 
 					// Normalisointi muuntaa vektorin pituuden yhdeksi
-					Vector3 frameMovement = travel.normalized * velocity * Time.deltaTime;
+					Vector2 frameMovement = travel.normalized * velocity * Time.fixedDeltaTime;
 
 					// magnitude palauttaa vektorin pituuden. Tässä vektorin pituus kuvaa
 					// jäljellä olevaa matkaa
@@ -100,17 +108,17 @@ namespace TeatterinMysteeri
 					if (frameMovement.magnitude < distance)
 					{
 						// Matkaa on vielä jäljellä, kuljetaan kohti kohdepistettä
-						transform.Translate(frameMovement);
+						// transform.Translate(frameMovement);
+						rigidBody.MovePosition(rigidBody.position + frameMovement);
 					}
 					else
 					{
 						// Päämäärä saavutettu
-						transform.position = targetPosition;
+						rigidBody.MovePosition(targetPosition);
+						// transform.position = targetPosition;
 						moveInput = Vector2.zero;
 					}
-
 					break;
-                    */
 			}
 		}
 
