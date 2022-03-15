@@ -111,7 +111,7 @@ namespace TeatterinMysteeri
             yield return new WaitForSeconds(waitTime); // odottaa waitTime:n verran, suoritus jatkuu waitTime.n kuluttua
 
             SceneManager.UnloadSceneAsync(originalScene);
-            SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
+            SceneManager.LoadScene(nextSceneName, LoadSceneMode.Additive);
             state = LoadingState.InProgress;
         }
         
