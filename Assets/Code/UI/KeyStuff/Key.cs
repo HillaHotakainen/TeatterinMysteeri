@@ -32,7 +32,7 @@ namespace TeatterinMysteeri
                 return null;
             }
         }
-        public void Awake()
+        public void Start()
         {
             keyHolder = FindObjectOfType<KeyHolder>();
         }
