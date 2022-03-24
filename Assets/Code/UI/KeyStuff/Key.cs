@@ -11,6 +11,8 @@ namespace TeatterinMysteeri
         private Sprite keyIcon;
 
         private KeyHolder keyHolder;
+        private GameObject hero;
+        private bool closeEnough;
         public Sprite Icon
         {
             get 
@@ -35,12 +37,25 @@ namespace TeatterinMysteeri
         public void Start()
         {
             keyHolder = FindObjectOfType<KeyHolder>();
+            hero = GameObject.Find("Hero");
+        }
+        public void Update()
+        {
+            // jatkuva tsekkaus onko Hero-objekti alle 2 unitin päässä
+            if (Vector3.Distance(transform.position, hero.transform.position) < 2) {
+                closeEnough = true;
+            }
+            else {
+                closeEnough = false;
+            }
         }
         public void OnPointerDown(PointerEventData eventData)
         {
-            Debug.Log("Got the key!");
-            keyHolder.GetKey();         //Hakee keyHolderin GetKey-metodia, joka laittaa tämän avaimen
-            Destroy(gameObject);        //Spriten keyHolderille, jonka jälkeen poistaa tämän gameobjectin
+            if (closeEnough) {
+                Debug.Log("Got the key!");
+                keyHolder.GetKey();         //Hakee keyHolderin GetKey-metodia, joka laittaa tämän avaimen
+                Destroy(gameObject);        //Spriten keyHolderille, jonka jälkeen poistaa tämän gameobjectin
+            }
         }
     }
 }
