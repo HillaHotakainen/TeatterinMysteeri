@@ -9,7 +9,8 @@ namespace TeatterinMysteeri
     {
         [SerializeField]
         private Sprite keyIcon;
-
+        [SerializeField]
+        private TextBox textBox;
         private KeyHolder keyHolder;
         private GameObject hero;
         private bool closeEnough;
@@ -55,6 +56,7 @@ namespace TeatterinMysteeri
                 Debug.Log("Got the key!");
                 keyHolder.GetKey();         //Hakee keyHolderin GetKey-metodia, joka laittaa tämän avaimen
                 Destroy(gameObject);        //Spriten keyHolderille, jonka jälkeen poistaa tämän gameobjectin
+                textBox.StartFade();
             }
         }
     }
