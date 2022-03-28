@@ -14,6 +14,7 @@ namespace TeatterinMysteeri
         private const float speed = 5;
         private Vector3 direction = Vector3.zero;
         private Vector3 targetPos;
+        private Collider2D front;
 
         void Start()
         {
@@ -61,7 +62,6 @@ namespace TeatterinMysteeri
                 moving = false;
                 distance = 1;
                 transform.position = targetPos;
-                Debug.Log("Crate's new position: " + transform.position);
             }
         }
         public void OnPointerDown(PointerEventData eventData)
@@ -69,12 +69,18 @@ namespace TeatterinMysteeri
             // liikkumiskäsky lähetetään vain, jos ollaan tarpeeksi lähellä ja laatikko ei jo liiku
             if (closeEnough & !moving) {
                 targetPos = transform.position + direction;
-                // unityn dokumentaatiosta löytyny koodi tapa tarkistaa olisko edessä collider
-                if (Physics2D.OverlapPoint(targetPos) == null) {
-                    Debug.Log("Crate pushed with the direction " + direction);
+                front = Physics2D.OverlapPoint(targetPos);
+
+                // lisäsin nyt tähän et voi työntää valonsäteen päälle kans
+                if (front == null) {
                     moving = true;
                 } else {
-                    Debug.Log("The crate can't be pushed there!");
+                    var test1 = front.GetComponent<LightBeamHorizontal>();
+                    if (test1 != null) {
+                        moving = true;
+                    } else {
+                        Debug.Log("The crate can't be pushed there!");
+                    }
                 }
             }
         }
