@@ -19,13 +19,17 @@ namespace TeatterinMysteeri
         private Image image;
         void Start()
         {
-            image = GetComponent<Image>();              //Textboxit ovat aina paikalla, mutta lpäinäkyviä
+            image = GetComponent<Image>();              //Textboxit ovat aina paikalla, mutta läpinäkyviä
+            text.enabled = false;
+            image.enabled = false;
             text.faceColor = new Color32(1, 1, 1, 0);
             image.color = new Color(1, 1, 1, 0);
         }
 
         public void StartFade()
         {
+            image.enabled = true;
+            text.enabled = true;
             StartCoroutine(Fade());
         }
         IEnumerator Fade()          //simppeli for-looppi joka fadee textboxin sisään ja sitten ulos muuttamalla sen alpha arvoja
@@ -66,6 +70,7 @@ namespace TeatterinMysteeri
                 }
                 yield return null;
             }
+            Destroy(gameObject);
         }
     }
 }

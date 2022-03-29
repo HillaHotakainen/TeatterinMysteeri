@@ -14,10 +14,11 @@ namespace TeatterinMysteeri
         Sprite openDoor;                //Oven aukinainen sprite
         private GameObject hero;
         private bool closeEnough;
-
+        Collider2D hitbox;
         private void Start()
         {
             hero = GameObject.Find("Hero");
+            hitbox = GetComponent<Collider2D>();
         }
         private void Update()
         {
@@ -42,8 +43,8 @@ namespace TeatterinMysteeri
             {                                           //vaihtaa klikkauksella oven spriten aukimaiseen
                 SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
                 spriteRenderer.sprite = openDoor;
+                hitbox.enabled = false;
             }
-            //TODO: Poista oven collider ja pistä lataa seuraava level kun astuu ovesta sisään
         }
     }
 }
