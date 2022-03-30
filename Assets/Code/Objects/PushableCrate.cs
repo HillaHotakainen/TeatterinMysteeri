@@ -75,8 +75,9 @@ namespace TeatterinMysteeri
                 if (front == null) {
                     moving = true;
                 } else {
-                    var test1 = front.GetComponent<LightBeamHorizontal>();
-                    if (test1 != null) {
+                    var test1 = front.GetComponent<LightBeamVertical>();
+                    var test2 = front.GetComponent<LightBeamHorizontal>();
+                    if (test1 != null | test2 != null) {
                         moving = true;
                     } else {
                         Debug.Log("The crate can't be pushed there!");

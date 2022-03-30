@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6297082479144025956}
   - component: {fileID: 5584616849915734122}
   - component: {fileID: -587969670024114657}
-  m_Layer: 0
+  - component: {fileID: 5537470959832580376}
+  m_Layer: 10
   m_Name: Valopysty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f79f46450a6abe34b847ca966600309d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,7 +94,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0012698174, y: 0}
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25081158, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5537470959832580376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6726790463064980936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a368182995f9a4449974b64fa57ed95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
