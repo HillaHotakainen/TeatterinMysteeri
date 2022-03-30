@@ -1706,6 +1706,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5885959861ddee46866a71439e50c97, type: 3}
+--- !u!114 &546073604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4615583192261674588, guid: f424092d848ed654e881e4d7881e5524, type: 3}
+  m_PrefabInstance: {fileID: 1616341356300978968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &619251041 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -5206,6 +5217,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &2114368699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4615583190625761395, guid: f424092d848ed654e881e4d7881e5524, type: 3}
+  m_PrefabInstance: {fileID: 1616341356300978968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2114368700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114368699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b02c9723b3b11b4c9dcd0c32c40bdea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmptext: {fileID: 546073604}
+  delayAfter: 0.5
+  timeBetweenCharacters: 0.1
+  secondsBeforeDestroy: 2
+  stringArray:
+  - One
+  - Two
+  - Three
+  - Four
 --- !u!1001 &1443315166228475570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5274,6 +5311,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 236945078}
     m_Modifications:
+    - target: {fileID: 1616341354928536097, guid: f424092d848ed654e881e4d7881e5524, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4615583190625761394, guid: f424092d848ed654e881e4d7881e5524, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

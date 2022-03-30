@@ -19,7 +19,7 @@ namespace TeatterinMysteeri
         private Image image;
         void Start()
         {
-            image = GetComponent<Image>();              //Textboxit ovat aina paikalla, mutta läpinäkyviä
+            image = GetComponent<Image>();
             text.enabled = false;
             image.enabled = false;
             text.faceColor = new Color32(1, 1, 1, 0);
