@@ -13,13 +13,29 @@ namespace TeatterinMysteeri
         [SerializeField] float timeBetweenCharacters = 0.1f;
         [SerializeField] float secondsBeforeDestroy = 2.0f;
         [SerializeField] string[] stringArray;
-
+        private bool textDone = false;
         private Image image;
         string writer;
+
+        public bool TextDone
+        {
+            get {return textDone;}
+        }
+
+        public float SecondsBfrDestroy
+        {
+            get {return secondsBeforeDestroy;}
+        }
         void Start()
         {
             image = GetComponent<Image>();
             writer = tmptext.text;
+        }
+
+        public void BeginText()
+        {
+            image.enabled = true;
+            tmptext.enabled = true;
             StartCoroutine("TypeWriterTMP");
         }
         public void NextBox(string nextText)
@@ -40,6 +56,7 @@ namespace TeatterinMysteeri
                 }
                 yield return new WaitForSeconds(delayAfter);  
             }
+            textDone = true;
             yield return new WaitForSeconds(secondsBeforeDestroy);
             Destroy(gameObject);
         }

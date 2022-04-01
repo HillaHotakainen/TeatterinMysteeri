@@ -9,6 +9,11 @@ namespace TeatterinMysteeri
         [SerializeField]
         private Transform target;
 
+        public Transform Target
+        {
+            get{return target;}
+            set{target = value;}
+        }
         [SerializeField]
         private float zOffset;
 
