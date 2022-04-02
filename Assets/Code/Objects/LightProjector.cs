@@ -47,9 +47,12 @@ namespace TeatterinMysteeri
             if (direction == "right" | direction == "left") {
                 beam.transform.position = new Vector2(transform.position.x + dirVector.x * closestCollider.distance/2, transform.position.y);
                 beam.transform.localScale = new Vector2(closestCollider.distance, 1);
-            } else {
+            } else if (direction == "up" | direction == "down") {
                 beam.transform.position = new Vector2(transform.position.x, transform.position.y + dirVector.y * closestCollider.distance/2);
                 beam.transform.localScale = new Vector2(1, closestCollider.distance);
+            }
+            else {
+                Debug.Log("Projector needs a direction!!");
             }
         }
     }

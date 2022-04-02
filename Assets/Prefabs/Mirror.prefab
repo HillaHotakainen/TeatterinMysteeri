@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6726790463064980936
+--- !u!1 &466822708238414833
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6297082479144025956}
-  - component: {fileID: 5584616849915734122}
-  - component: {fileID: -587969670024114657}
-  - component: {fileID: 5537470959832580376}
-  m_Layer: 10
-  m_Name: Valopysty
+  - component: {fileID: 7014849377771792785}
+  - component: {fileID: 1710498473825512753}
+  - component: {fileID: 1063863503994061776}
+  - component: {fileID: 1519948070334601473}
+  m_Layer: 0
+  m_Name: Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6297082479144025956
+--- !u!4 &7014849377771792785
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6726790463064980936}
+  m_GameObject: {fileID: 466822708238414833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.284556, y: -1.6749122, z: 0}
+  m_LocalPosition: {x: -3.5, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5584616849915734122
+--- !u!212 &1710498473825512753
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6726790463064980936}
+  m_GameObject: {fileID: 466822708238414833}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 64f5499859f26ad489848295e13c8be4, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 0caff2df7f1aec242a810c159957f8f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,20 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-587969670024114657
+--- !u!61 &1063863503994061776
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6726790463064980936}
+  m_GameObject: {fileID: 466822708238414833}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012698174, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -108,17 +108,25 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25081158, y: 1}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5537470959832580376
+--- !u!114 &1519948070334601473
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6726790463064980936}
+  m_GameObject: {fileID: 466822708238414833}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a368182995f9a4449974b64fa57ed95, type: 3}
+  m_Script: {fileID: 11500000, guid: d00bca9d71a0b1b41913eae507cba451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vaaka: {fileID: 6384557875828992284, guid: f2ac7debb7891f34e9d1592130e083cc, type: 3}
+  pysty: {fileID: 6297082479144025956, guid: 7c45f0910536c2943b2069bf451bbb34, type: 3}
+  kulma: {fileID: 4534120108286162385, guid: 1e34d152bfc0943498818360c0a3650e, type: 3}
+  koillinen: {fileID: 21300000, guid: 85cfe587b80ce7243952f234d807240a, type: 3}
+  kaakko: {fileID: 21300000, guid: e55f7426c89dae446898cb2649e85b7a, type: 3}
+  lounas: {fileID: 21300000, guid: ee5338f07a7eb4640ae2c86a5f0b77d1, type: 3}
+  luode: {fileID: 21300000, guid: 2951b17c70fc300449527a75f3be7def, type: 3}
+  direction: nw
