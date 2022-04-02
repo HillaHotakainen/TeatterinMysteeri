@@ -8,6 +8,7 @@ namespace TeatterinMysteeri
 {
     public class SceneChanger : MonoBehaviour, IPointerDownHandler
     {
+
         [SerializeField]
         private string sceneName;
         private void OnTriggerEnter2D(Collider2D other)
