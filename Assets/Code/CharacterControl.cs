@@ -32,10 +32,15 @@ namespace TeatterinMysteeri
 
 		private Rigidbody2D rigidBody;
 
+		public bool dontMove = false;
+		public Vector2 MoveInput
+		{
+			get{return moveInput;}
+			set{moveInput = value;}
+		}
 		private void Awake()
 		{
 			rigidBody = GetComponent<Rigidbody2D>();
-            /* kommentoin pois toistaiseksi
 			animator = GetComponent<Animator>();
 			if (animator == null)
 			{
@@ -49,23 +54,24 @@ namespace TeatterinMysteeri
 				Debug.LogError("Character is missing an renderer component!");
 				Debug.Break();
 			}
-            */
 		}
 
 		private void Update()
 		{
-			//UpdateAnimator();
+			UpdateAnimator();
 		}
 
 		private void FixedUpdate()
 		{
-			MoveCharacter();
+			if(!dontMove)
+			{
+				MoveCharacter();
+			}
 		}
 
 		private void UpdateAnimator()
 		{
-			renderer.flipX = moveInput.x < 0;
-
+			//renderer.flipX = moveInput.x < 0;
 			// Same as
 			// if (moveInput.x < 0)
 			// {
@@ -75,7 +81,6 @@ namespace TeatterinMysteeri
 			// {
 			// 	renderer.flipX = false;
 			// }
-
 			animator.SetFloat("speed", moveInput.magnitude);
 			animator.SetFloat("horizontal", moveInput.x);
 			animator.SetFloat("vertical", moveInput.y);

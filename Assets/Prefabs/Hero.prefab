@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1449306424121271565}
   - component: {fileID: 1449306424121271560}
   - component: {fileID: 1449306424121271567}
+  - component: {fileID: 836115556}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: a605607e25ec0be43bf6d0c3ddfc638f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7de74c0422f9ca34ca1185c7912b829c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,6 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 5
+  dontMove: 0
 --- !u!50 &1449306424121271560
 Rigidbody2D:
   serializedVersion: 4
@@ -159,11 +161,30 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.14880279, y: 0.009516001}
-      - {x: -0.28175843, y: 0.0071231127}
-      - {x: -0.4451658, y: -0.06471205}
-      - {x: -0.4383794, y: -0.63261336}
-      - {x: -0.39419007, y: -0.7583978}
-      - {x: 0.25558716, y: -0.7583978}
-      - {x: 0.3294496, y: -0.6213081}
-      - {x: 0.33071283, y: -0.06463355}
+    - - {x: 0.16562441, y: -0.015716553}
+      - {x: -0.23970425, y: -0.009698629}
+      - {x: -0.37787884, y: -0.17405307}
+      - {x: -0.35427105, y: -0.63261336}
+      - {x: -0.26802754, y: -0.7668087}
+      - {x: 0.19671112, y: -0.7583978}
+      - {x: 0.2789845, y: -0.6213081}
+      - {x: 0.29706958, y: -0.16556376}
+--- !u!95 &836115556
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449306424121271554}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e636f6fdd1c56f469a381e199b8c64d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

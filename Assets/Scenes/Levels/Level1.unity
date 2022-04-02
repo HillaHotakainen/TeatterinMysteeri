@@ -2149,8 +2149,9 @@ GameObject:
   m_Component:
   - component: {fileID: 185852212}
   - component: {fileID: 185852213}
+  - component: {fileID: 185852214}
   m_Layer: 0
-  m_Name: Ghost
+  m_Name: Ghost_npc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2210,7 +2211,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f103d4436872011468e11e54a8a254f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2221,6 +2222,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &185852214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185852211}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c40d1f2301d7121439cdfdb7d923d2f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &206630708 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6357204115308719561, guid: cdd502c0e3be1564ba8f541cf9a8afa0, type: 3}
@@ -4123,7 +4143,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 30ebf6f884f48f64a9b71df4173bb3d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8683,6 +8703,7 @@ MonoBehaviour:
   secondDialogue: {fileID: 542553906}
   ghost: {fileID: 185852211}
   skipCutscene: 0
+  lookup: {fileID: 21300000, guid: f9d44714f31f8164bade4a4044cd3a32, type: 3}
 --- !u!4 &1797940178
 Transform:
   m_ObjectHideFlags: 0

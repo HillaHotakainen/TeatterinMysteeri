@@ -18,13 +18,23 @@ namespace TeatterinMysteeri
         [SerializeField] bool skipCutscene = false;
         CameraFollow cameraFollow;
         bool movementDone = false;
+        private CharacterControl characterControl;
+        [SerializeField] Sprite lookup;
+        SpriteRenderer spriteRenderer1;
+        Sprite original;
+        Animator animator;
         void Start()
         {
         cameraFollow = kamera.GetComponent<CameraFollow>();
+        characterControl = inputProcessor.GetComponent<CharacterControl>();
+        spriteRenderer1 = inputProcessor.GetComponent<SpriteRenderer>();
+        original = spriteRenderer1.sprite;
+        animator = spriteRenderer1.GetComponent<Animator>();
         inputProcessor.enabled = false;
         joystick1.enabled = false;
         joystick2.enabled = false;
         cameraFollow.enabled = false;
+        characterControl.dontMove = true;
         if(!skipCutscene)
         {
             StartCoroutine(Cutscene());
@@ -49,6 +59,8 @@ namespace TeatterinMysteeri
             movementDone = false;
             cameraFollow.Target = inputProcessor.transform;
             Destroy(ghost);
+            animator.enabled = true;
+            spriteRenderer1.sprite = original;
             secondDialogue.BeginText();
             yield return new WaitUntil(() => secondDialogue.TextDone);
             yield return new WaitForSeconds(secondDialogue.SecondsBfrDestroy);
@@ -60,10 +72,15 @@ namespace TeatterinMysteeri
             Vector2 heroposition = inputProcessor.transform.position;
             while(heroposition != (new Vector2(-0.5f,-0.2f)))
             {
+                characterControl.MoveInput = Vector2.down;
                 heroposition = Vector2.MoveTowards(heroposition,new Vector2(-0.5f,-0.2f), 3*Time.deltaTime);
                 inputProcessor.transform.position = heroposition;
                 yield return null;
             }
+            characterControl.MoveInput = Vector2.zero;
+            animator.enabled = false;
+            spriteRenderer1.sprite = lookup;
+            yield return new WaitForSeconds(1.0f);
             movementDone = true;
         }
 
@@ -107,6 +124,7 @@ namespace TeatterinMysteeri
             inputProcessor.enabled = true;
             joystick1.enabled = true;
             joystick2.enabled = true;
+            characterControl.dontMove = false;
         }
     }
 }
