@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _FaceTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1.8, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 7353071239007677709}
@@ -55,9 +55,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Sketchnote
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 1206784082
   material: {fileID: -2719779751423995128}
-  materialHashCode: 0
+  materialHashCode: 1013556274
   m_Version: 1.1.0
   m_SourceFontFileGUID: ce8cb3b4ced7d03498729ba55102ef3c
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: ce8cb3b4ced7d03498729ba55102ef3c, type: 3}

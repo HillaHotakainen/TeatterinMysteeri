@@ -162,7 +162,6 @@ GameObject:
   - component: {fileID: 6765203909306799425}
   - component: {fileID: 6765203909306799424}
   - component: {fileID: 6765203909306799431}
-  - component: {fileID: 6765203909306799426}
   - component: {fileID: 7944838724238612206}
   m_Layer: 5
   m_Name: Button1
@@ -277,19 +276,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6765203909306799426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6765203909306799429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb7e5354e596b2a40a4716c02f9fdf0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Testaus
 --- !u!114 &7944838724238612206
 MonoBehaviour:
   m_ObjectHideFlags: 0
