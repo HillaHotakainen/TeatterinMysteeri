@@ -35,6 +35,7 @@ namespace TeatterinMysteeri
                 default:
                     break;
             }
+            DontDestroyOnLoad(beam);
         }
         void Update()
         {

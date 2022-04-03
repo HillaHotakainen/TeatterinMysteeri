@@ -11,7 +11,7 @@ namespace TeatterinMysteeri
         public Image lockedImage;
         public Image star;
 
-        private void update()
+        private void Start()
         {
             UpdateLevelImage();
         }
