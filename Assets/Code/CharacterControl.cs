@@ -33,6 +33,8 @@ namespace TeatterinMysteeri
 		private Rigidbody2D rigidBody;
 
 		public bool dontMove = false;
+		private float lastmoveX;
+		private float lastmoveY;
 		public Vector2 MoveInput
 		{
 			get{return moveInput;}
@@ -84,6 +86,16 @@ namespace TeatterinMysteeri
 			animator.SetFloat("speed", moveInput.magnitude);
 			animator.SetFloat("horizontal", moveInput.x);
 			animator.SetFloat("vertical", moveInput.y);
+			if(moveInput == Vector2.zero)
+			{
+				animator.SetFloat("lastmoveX", lastmoveX);
+				animator.SetFloat("lastmoveY", lastmoveY);
+			}
+			else
+			{
+				lastmoveX = moveInput.x;
+				lastmoveY = moveInput.y;
+			}
 		}
 
 		private void MoveCharacter()

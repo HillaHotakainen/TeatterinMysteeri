@@ -6770,8 +6770,8 @@ MonoBehaviour:
   stringArray:
   - zzz...
   - '*snap*'
-  - Ei perkele piti ottaa vaan pienet torkut
-  - "Pienet torkut venyikin n\xE4k\xF6j\xE4\xE4n keskiy\xF6h\xF6n..."
+  - Piti ottaa vaan pienet torkut...
+  - "\"Pienet torkut\" n\xE4k\xF6j\xE4\xE4n keskiy\xF6h\xF6n!"
   - "Kai sit\xE4 pit\xE4isi kotio p\xE4in l\xE4hte\xE4."
 --- !u!224 &913526869 stripped
 RectTransform:
@@ -9963,7 +9963,7 @@ MonoBehaviour:
   firstDialogue: {fileID: 913526868}
   secondDialogue: {fileID: 542553906}
   ghost: {fileID: 185852211}
-  skipCutscene: 0
+  skipCutscene: 1
   lookup: {fileID: 21300000, guid: f9d44714f31f8164bade4a4044cd3a32, type: 3}
 --- !u!4 &1797940178
 Transform:
