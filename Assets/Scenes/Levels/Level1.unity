@@ -12128,6 +12128,10 @@ PrefabInstance:
       value: SceneChanger
       objectReference: {fileID: 0}
     - target: {fileID: 5299689376201780509, guid: c47ac516fbfb0514dab5537bb700f333, type: 3}
+      propertyPath: cantClick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299689376201780509, guid: c47ac516fbfb0514dab5537bb700f333, type: 3}
       propertyPath: sceneName
       value: LevelSelection
       objectReference: {fileID: 0}

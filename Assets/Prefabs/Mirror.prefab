@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0caff2df7f1aec242a810c159957f8f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -130,3 +130,6 @@ MonoBehaviour:
   lounas: {fileID: 21300000, guid: ee5338f07a7eb4640ae2c86a5f0b77d1, type: 3}
   luode: {fileID: 21300000, guid: 2951b17c70fc300449527a75f3be7def, type: 3}
   direction: nw
+  lol:
+    serializedVersion: 2
+    m_Bits: 0

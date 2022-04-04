@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6238020167515794753}
   - component: {fileID: 5590528693421764430}
   - component: {fileID: 4422157055396692053}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Receiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   receiving: {fileID: 21300000, guid: 50097a067a464a04299435a1e1818e6e, type: 3}
   notreceiving: {fileID: 21300000, guid: 71fae7810ec4be7468032924a04e473e, type: 3}
+  receivingLight: 0

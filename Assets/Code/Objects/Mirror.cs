@@ -45,28 +45,28 @@ namespace TeatterinMysteeri
                     sideVer = Vector3.up;
                     sideHor = Vector3.left;
                     spr.sprite = luode;
-                    spr.sortingOrder = 3;
+                    spr.sortingOrder = 4;
                     valokulma.transform.rotation = Quaternion.Euler(0, 0, 180);
                     break;
                 case "ne":
                     sideVer = Vector3.up;
                     sideHor = Vector3.right;
                     spr.sprite = koillinen;
-                    spr.sortingOrder = 3;
+                    spr.sortingOrder = 4;
                     valokulma.transform.rotation = Quaternion.Euler(0, 0, 90); 
                     break;
                 case "sw":
                     sideVer = Vector3.down;
                     sideHor = Vector3.left;
                     spr.sprite = lounas;
-                    spr.sortingOrder = 1;
+                    spr.sortingOrder = 2;
                     valokulma.transform.rotation = Quaternion.Euler(0, 0, -90); 
                     break;
                 case "se":
                     sideVer = Vector3.down;
                     sideHor = Vector3.right;
                     spr.sprite = kaakko;
-                    spr.sortingOrder = 1;
+                    spr.sortingOrder = 2;
                     valokulma.transform.rotation = Quaternion.Euler(0, 0, 0); 
                     break;
                 default:
