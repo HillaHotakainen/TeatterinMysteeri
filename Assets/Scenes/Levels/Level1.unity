@@ -2283,6 +2283,7 @@ GameObject:
   - component: {fileID: 185852212}
   - component: {fileID: 185852213}
   - component: {fileID: 185852214}
+  - component: {fileID: 185852215}
   m_Layer: 0
   m_Name: Ghost_npc
   m_TagString: Untagged
@@ -2374,6 +2375,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &185852215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185852211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a90907b32af892469e623d426e1fdba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &206630708 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6357204115308719561, guid: cdd502c0e3be1564ba8f541cf9a8afa0, type: 3}

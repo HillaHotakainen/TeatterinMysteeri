@@ -23,6 +23,7 @@ namespace TeatterinMysteeri
         SpriteRenderer spriteRenderer1;
         Sprite original;
         Animator animator;
+        NPC_mover ghostMover;
         void Start()
         {
         cameraFollow = kamera.GetComponent<CameraFollow>();
@@ -30,6 +31,7 @@ namespace TeatterinMysteeri
         spriteRenderer1 = inputProcessor.GetComponent<SpriteRenderer>();
         original = spriteRenderer1.sprite;
         animator = spriteRenderer1.GetComponent<Animator>();
+        ghostMover = ghost.GetComponent<NPC_mover>();
         inputProcessor.enabled = false;
         joystick1.enabled = false;
         joystick2.enabled = false;
@@ -87,6 +89,8 @@ namespace TeatterinMysteeri
         IEnumerator MoveGhost()
         {
             cameraFollow.enabled = true;
+            ghostMover.Speed = 1.0f;
+            ghostMover.MoveInput = Vector2.right;
             cameraFollow.Target = ghost.transform;
             Vector2 ghostPosition = ghost.transform.position;
             Vector2 target1 = new Vector2(7.5f,7.5f);
@@ -97,6 +101,7 @@ namespace TeatterinMysteeri
                 ghost.transform.position = ghostPosition;
                 yield return null;
             }
+            ghostMover.MoveInput = Vector2.up;
             while(ghostPosition != target2 )
             {
                 ghostPosition = Vector2.MoveTowards(ghostPosition, target2, 3*Time.deltaTime);
