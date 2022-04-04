@@ -14,31 +14,40 @@ namespace TeatterinMysteeri
         private GameObject beam;
         void Start()
         {
+            
+        }
+        void Update()
+        {
             // isketään annetun suunnan mukaan säde käyntiin
             switch(direction) {
                 case "right":
-                    beam = Instantiate(vaaka, transform.position + new Vector3(1,0,0), Quaternion.identity).gameObject;
+                    if (beam == null) {
+                        beam = Instantiate(vaaka, transform.position + new Vector3(1,0,0), Quaternion.identity).gameObject;
+                    }
                     dirVector = new Vector2(1,0);
                     break;
                 case "left":
+                    if (beam == null) {
                     beam = Instantiate(vaaka, transform.position + new Vector3(-1,0,0), Quaternion.identity).gameObject;
+                    }
                     dirVector = new Vector2(-1,0);
                     break;
                 case "up":
+                    if (beam == null) {
                     beam = Instantiate(pysty, transform.position + new Vector3(0,1,0), Quaternion.identity).gameObject;
+                    }
                     dirVector = new Vector2(0,1);
                     break;
                 case "down":
+                    if (beam == null) {
                     beam = Instantiate(pysty, transform.position + new Vector3(0,-1,0), Quaternion.identity).gameObject;
+                    }
                     dirVector = new Vector2(0,-1);
                     break;
                 default:
                     break;
             }
-            DontDestroyOnLoad(beam);
-        }
-        void Update()
-        {
+
             // tää on täs ettei se valon raycast törmää itteensä
             var light = LayerMask.GetMask("Light");
             // katsotaan miten pitkällä on lähin collider valon suuntaan (maksimietäisyys 50)

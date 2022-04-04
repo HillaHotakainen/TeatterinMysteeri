@@ -30,13 +30,14 @@ namespace TeatterinMysteeri
         {
             spr = gameObject.GetComponent<SpriteRenderer>();
             hero = GameObject.Find("Hero");
-            valokulma = Instantiate(kulma, transform.position, Quaternion.identity).gameObject;
-            DontDestroyOnLoad(valokulma);
-            kulmaSpr = valokulma.GetComponent<SpriteRenderer>();
-            kulmaSpr.enabled = false;
         }
         void Update()
         {
+            if (valokulma == null) {
+                valokulma = Instantiate(kulma, transform.position, Quaternion.identity).gameObject;
+                kulmaSpr = valokulma.GetComponent<SpriteRenderer>();
+                kulmaSpr.enabled = false;
+            }
             // joskus elämä on rankkaa
             switch (direction) {
                 case "nw":
@@ -101,7 +102,6 @@ namespace TeatterinMysteeri
             if (reflectingVer) {
                 if (beam == null) {
                     beam = Instantiate(vaaka, transform.position + sideHor, Quaternion.identity).gameObject;
-                    DontDestroyOnLoad(beam);
                 }
                 var light = LayerMask.GetMask("Light");
                 closestCollider = Physics2D.Raycast(transform.position + sideHor/2, sideHor, 50f, ~light);
@@ -115,7 +115,6 @@ namespace TeatterinMysteeri
             if (reflectingHor) {
                 if (beam == null) {
                     beam = Instantiate(pysty, transform.position + sideVer, Quaternion.identity).gameObject;
-                    DontDestroyOnLoad(beam);
                 }
                 var light = LayerMask.GetMask("Light");
                 closestCollider = Physics2D.Raycast(transform.position + sideVer/2, sideVer, 50f, ~light);
