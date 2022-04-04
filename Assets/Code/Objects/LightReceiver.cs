@@ -16,7 +16,7 @@ namespace TeatterinMysteeri
         }
         void Update()
         {
-            var lightCheck = Physics2D.OverlapPoint(transform.position);
+            var lightCheck = Physics2D.OverlapPoint(transform.position, (1 << 10));
             if (lightCheck != null) {
                 var verTest = lightCheck.GetComponent<LightBeamVertical>();
                 var horTest = lightCheck.GetComponent<LightBeamHorizontal>();

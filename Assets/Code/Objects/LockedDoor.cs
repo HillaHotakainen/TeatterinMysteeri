@@ -17,7 +17,7 @@ namespace TeatterinMysteeri
         Collider2D hitbox;
         private void Start()
         {
-            hero = GameObject.Find("Hero");
+            hero = GameObject.FindGameObjectsWithTag("Player")[0];
             hitbox = GetComponent<Collider2D>();
         }
         private void Update()

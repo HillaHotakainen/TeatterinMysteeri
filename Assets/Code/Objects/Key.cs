@@ -38,7 +38,7 @@ namespace TeatterinMysteeri
         public void Start()
         {
             keyHolder = FindObjectOfType<KeyHolder>();
-            hero = GameObject.Find("Hero");
+            hero = GameObject.FindGameObjectsWithTag("Player")[0];
         }
         public void Update()
         {

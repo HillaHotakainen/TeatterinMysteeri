@@ -18,7 +18,7 @@ namespace TeatterinMysteeri
 
         void Start()
         {
-            hero = GameObject.Find("Hero");
+            hero = GameObject.FindGameObjectsWithTag("Player")[0];
         }
         void Update()
         {

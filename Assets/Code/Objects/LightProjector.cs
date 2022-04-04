@@ -51,7 +51,7 @@ namespace TeatterinMysteeri
             // tää on täs ettei se valon raycast törmää itteensä
             var light = LayerMask.GetMask("Light");
             // katsotaan miten pitkällä on lähin collider valon suuntaan (maksimietäisyys 50)
-            closestCollider = Physics2D.Raycast(transform.position, dirVector, 50f, ~light);
+            closestCollider = Physics2D.Raycast(transform.position, dirVector, 50f, ~(1 << 10 | 1 << 11));
 
             // skaalataan ja siirretään valoa täyttämään koko etäisyys
             if (direction == "right" | direction == "left") {
