@@ -22,6 +22,9 @@ namespace TeatterinMysteeri
         [SerializeField] Sprite lookup;
         SpriteRenderer spriteRenderer1;
         Sprite original;
+        [SerializeField] Sprite sitting;
+        [SerializeField] Sprite sitSleep;
+        [SerializeField] GameObject zzz;
         Animator animator;
         NPC_mover ghostMover;
         void Start()
@@ -37,6 +40,8 @@ namespace TeatterinMysteeri
         joystick2.enabled = false;
         cameraFollow.enabled = false;
         characterControl.dontMove = true;
+        animator.enabled = false;
+        spriteRenderer1.sprite = sitSleep;
         if(!skipCutscene)
         {
             StartCoroutine(Cutscene());
@@ -52,7 +57,12 @@ namespace TeatterinMysteeri
         IEnumerator Cutscene()
         {
             firstDialogue.BeginText();
+            yield return new WaitForSeconds(2.0f);
+            zzz.SetActive(false);
+            spriteRenderer1.sprite = sitting;
             yield return new WaitUntil(() => firstDialogue.TextDone);
+            spriteRenderer1.sprite = original;
+            animator.enabled = true;
             StartCoroutine(MoveCharacter());
             yield return new WaitUntil(() => movementDone);
             movementDone = false;
@@ -75,7 +85,7 @@ namespace TeatterinMysteeri
             while(heroposition != (new Vector2(-0.5f,-0.2f)))
             {
                 characterControl.MoveInput = Vector2.down;
-                heroposition = Vector2.MoveTowards(heroposition,new Vector2(-0.5f,-0.2f), 3*Time.deltaTime);
+                heroposition = Vector2.MoveTowards(heroposition,new Vector2(-0.5f,-0.2f), 2*Time.deltaTime);
                 inputProcessor.transform.position = heroposition;
                 yield return null;
             }
@@ -125,11 +135,13 @@ namespace TeatterinMysteeri
         }
         private void EnableStuff()
         {
+            Destroy(zzz);
             cameraFollow.enabled = true;
             inputProcessor.enabled = true;
             joystick1.enabled = true;
             joystick2.enabled = true;
             characterControl.dontMove = false;
+            animator.enabled = true;
         }
     }
 }
