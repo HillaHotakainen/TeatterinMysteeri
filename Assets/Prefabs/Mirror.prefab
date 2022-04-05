@@ -125,10 +125,10 @@ MonoBehaviour:
   vaaka: {fileID: 6384557875828992284, guid: f2ac7debb7891f34e9d1592130e083cc, type: 3}
   pysty: {fileID: 6297082479144025956, guid: 7c45f0910536c2943b2069bf451bbb34, type: 3}
   kulma: {fileID: 4534120108286162385, guid: 1e34d152bfc0943498818360c0a3650e, type: 3}
-  koillinen: {fileID: 21300000, guid: 85cfe587b80ce7243952f234d807240a, type: 3}
-  kaakko: {fileID: 21300000, guid: e55f7426c89dae446898cb2649e85b7a, type: 3}
-  lounas: {fileID: 21300000, guid: ee5338f07a7eb4640ae2c86a5f0b77d1, type: 3}
-  luode: {fileID: 21300000, guid: 2951b17c70fc300449527a75f3be7def, type: 3}
+  koillinen: {fileID: 21300000, guid: ffabd103a2ac68a4f9d40568274ba8c6, type: 3}
+  kaakko: {fileID: 21300000, guid: 3ff51b0c7d4b4384e9f4437c805bb015, type: 3}
+  lounas: {fileID: 21300000, guid: 1b07777aa054a6646b749f66cdd37bb4, type: 3}
+  luode: {fileID: 21300000, guid: c0ba5ba4d01bc6a4b8c9248538657d67, type: 3}
   direction: nw
   lol:
     serializedVersion: 2

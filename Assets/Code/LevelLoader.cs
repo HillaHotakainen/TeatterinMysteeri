@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace TeatterinMysteeri
 {
@@ -62,7 +63,6 @@ namespace TeatterinMysteeri
             // ladataan loading screen additiivisesti (nykyisen scenen rinnalle)
             SceneManager.LoadSceneAsync(LoaderName, LoadSceneMode.Additive);
         }
-
         private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
         {
             switch(state)
@@ -92,7 +92,6 @@ namespace TeatterinMysteeri
                             StartCoroutine(FinalizedLoad(fadeTime));
 
                             state = LoadingState.None;
-                            
                             break; // poistutaa loopista
                         }
                     }
@@ -114,6 +113,5 @@ namespace TeatterinMysteeri
             SceneManager.LoadScene(nextSceneName, LoadSceneMode.Additive);
             state = LoadingState.InProgress;
         }
-        
     }
 }

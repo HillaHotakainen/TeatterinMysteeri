@@ -98,6 +98,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vaaka: {fileID: 6384557875828992284, guid: f2ac7debb7891f34e9d1592130e083cc, type: 3}
   pysty: {fileID: 6297082479144025956, guid: 7c45f0910536c2943b2069bf451bbb34, type: 3}
+  rightSpr: {fileID: 21300000, guid: 01365c25be8dcad48a4c55029ffe9dba, type: 3}
+  leftSpr: {fileID: 21300000, guid: 385dff9fa0afb6f46858b19ec886a958, type: 3}
+  upSpr: {fileID: 21300000, guid: 8c97abcdc41b4a3489dada9236f63b9c, type: 3}
+  downSpr: {fileID: 21300000, guid: a81bedff2e6dad648b4818775b005c9b, type: 3}
+  direction: right
 --- !u!61 &1971003721889645591
 BoxCollider2D:
   m_ObjectHideFlags: 0

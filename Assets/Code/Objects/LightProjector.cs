@@ -8,13 +8,35 @@ namespace TeatterinMysteeri
     {
         public Transform vaaka;
         public Transform pysty;
+        public Sprite rightSpr;
+        public Sprite leftSpr;
+        public Sprite upSpr;
+        public Sprite downSpr;
+        
         [SerializeField] private string direction = "right";
+        private SpriteRenderer spr;
         private Vector2 dirVector;
         private RaycastHit2D closestCollider;
         private GameObject beam;
         void Start()
         {
-            
+            spr = GetComponent<SpriteRenderer>();
+            switch(direction) {
+                case "right":
+                    spr.sprite = rightSpr;
+                    break;
+                case "left":
+                    spr.sprite = leftSpr;
+                    break;
+                case "up":
+                    spr.sprite = upSpr;
+                    break;
+                case "down":
+                    spr.sprite = downSpr;
+                    break;
+                default:
+                    break;
+            }
         }
         void Update()
         {
@@ -48,8 +70,6 @@ namespace TeatterinMysteeri
                     break;
             }
 
-            // tää on täs ettei se valon raycast törmää itteensä
-            var light = LayerMask.GetMask("Light");
             // katsotaan miten pitkällä on lähin collider valon suuntaan (maksimietäisyys 50)
             closestCollider = Physics2D.Raycast(transform.position, dirVector, 50f, ~(1 << 10 | 1 << 11));
 
