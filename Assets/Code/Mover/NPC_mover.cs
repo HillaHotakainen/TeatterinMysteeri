@@ -35,6 +35,8 @@ namespace TeatterinMysteeri
             animator.SetFloat("speed", speed);
 			animator.SetFloat("horizontal", moveInput.x);
 			animator.SetFloat("vertical", moveInput.y);
+            animator.SetFloat("lastmoveX", moveInput.x);
+            animator.SetFloat("lastmoveY", moveInput.y);
         }
     }
 }
