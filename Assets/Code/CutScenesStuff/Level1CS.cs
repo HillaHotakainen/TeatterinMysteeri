@@ -82,7 +82,7 @@ namespace TeatterinMysteeri
             characterControl.MoveInput = Vector2.zero;
             animator.enabled = false;
             spriteRenderer1.sprite = lookup;
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.5f);
             movementDone = true;
         }
 
