@@ -12,6 +12,17 @@ namespace TeatterinMysteeri
         [SerializeField]
         private string sceneName;
         public bool cantClick;
+        private bool waitDone = false;
+        private void Start()
+        {
+            StartCoroutine(Wait());
+        }
+
+        IEnumerator Wait()
+        {
+            yield return new WaitForSeconds(1f);
+            waitDone = true;
+        }
         private void OnTriggerEnter2D(Collider2D other)
         {
             LevelLoader.Current.LoadLevel(sceneName);
@@ -19,7 +30,7 @@ namespace TeatterinMysteeri
         }
         public void OnPointerDown(PointerEventData eventData)
         {
-            if (!cantClick) {
+            if (!cantClick && waitDone) {
                 LevelLoader.Current.LoadLevel(sceneName);
                 SaveProgress();
             }

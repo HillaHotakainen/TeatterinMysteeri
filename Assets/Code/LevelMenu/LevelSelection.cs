@@ -11,6 +11,17 @@ namespace TeatterinMysteeri
         [SerializeField] private bool unlocked;
         public Image lockedImage;
         public Image star;
+        private bool waitDone = false;
+        private void Start()
+        {
+            StartCoroutine(Wait());
+        }
+
+        IEnumerator Wait()          //Odottaa sekunnin ennen kuin hyväksyy klikkauksen
+        {
+            yield return new WaitForSeconds(1f);
+            waitDone = true;
+        }
 
         private void UpdateLevelImage()
         {
@@ -28,7 +39,7 @@ namespace TeatterinMysteeri
 
         public void PressSelection(string levelName)
         {
-            if(unlocked)
+            if(unlocked && waitDone)
             {
                 LevelLoader.Current.LoadLevel(levelName);
             }
