@@ -21,7 +21,6 @@ namespace TeatterinMysteeri
         private GameObject beam;
         private GameObject hero;
         private GameObject valokulma;
-        public LayerMask lol;
         private bool reflectingHor = false;
         private bool reflectingVer = false;
         private bool closeEnough = false;
@@ -104,7 +103,6 @@ namespace TeatterinMysteeri
                 if (beam == null) {
                     beam = Instantiate(vaaka, transform.position + sideHor, Quaternion.identity).gameObject;
                 }
-                var light = LayerMask.GetMask("Light");
                 closestCollider = Physics2D.Raycast(transform.position + sideHor/2, sideHor, 50f, ~(1 << 10 | 1 << 11));
                 beam.transform.position = new Vector2(transform.position.x + sideHor.x * closestCollider.distance/2 + sideHor.x/2, transform.position.y);
                 beam.transform.localScale = new Vector2(closestCollider.distance, 1);
@@ -117,7 +115,6 @@ namespace TeatterinMysteeri
                 if (beam == null) {
                     beam = Instantiate(pysty, transform.position + sideVer, Quaternion.identity).gameObject;
                 }
-                var light = LayerMask.GetMask("Light");
                 closestCollider = Physics2D.Raycast(transform.position + sideVer/2, sideVer, 50f, ~(1 << 10 | 1 << 11));
                 beam.transform.position = new Vector2(transform.position.x, transform.position.y + sideVer.y * closestCollider.distance/2 + sideVer.y/2);
                 beam.transform.localScale = new Vector2(1, closestCollider.distance);

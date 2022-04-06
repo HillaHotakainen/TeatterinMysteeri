@@ -7,12 +7,6 @@ namespace TeatterinMysteeri
 {
     public class LightBeamHorizontal : MonoBehaviour
     {
-        private void OnTriggerEnter2D(Collider2D other) {
-           if (other.name == "Ghost") {
-               CharacterControl ctrl = other.GetComponent<CharacterControl>();
-               ctrl.dontMove = true;
-               LevelLoader.Current.LoadLevel(SceneManager.GetActiveScene().name);
-           }
-       }
+        
     }
 }
