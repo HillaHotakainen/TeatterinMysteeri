@@ -43,10 +43,10 @@ namespace TeatterinMysteeri
                 if (targetWaypoint == waypoints.Count) {
                     targetWaypoint = 0;
                 }
+                DetermineDirection();
             } else if (!caught) {
                 Move(waypoints[targetWaypoint].position, speed * Time.deltaTime);
             }
-            DetermineDirection();
         }
         private void OnTriggerEnter2D(Collider2D other) {
             caught = true;
