@@ -11,6 +11,7 @@ namespace TeatterinMysteeri
         [SerializeField] private bool unlocked;
         public Image lockedImage;
         public Image star;
+        public Image levelDone;
         private bool waitDone = false;
         private void Start()
         {
@@ -48,7 +49,7 @@ namespace TeatterinMysteeri
         {
             //PlayerPrefs.DeleteAll();
             //PlayerPrefs.Save();
-            if(name == "Testaus")
+            if(name == "Level1")
             {
                 unlocked = true;
             }

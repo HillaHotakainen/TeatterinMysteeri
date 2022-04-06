@@ -11016,7 +11016,7 @@ MonoBehaviour:
   firstDialogue: {fileID: 913526868}
   secondDialogue: {fileID: 542553906}
   ghost: {fileID: 185852211}
-  skipCutscene: 0
+  skipCutscene: 1
   lookup: {fileID: 21300000, guid: f9d44714f31f8164bade4a4044cd3a32, type: 3}
   sitting: {fileID: 21300000, guid: f8b82b49bba2d8d48a1d138b7c2854b7, type: 3}
   sitSleep: {fileID: 21300000, guid: 1885dc3c5dcc8384ba92380b9eef8fe5, type: 3}
@@ -11675,7 +11675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5299689376201780509, guid: c47ac516fbfb0514dab5537bb700f333, type: 3}
       propertyPath: sceneName
-      value: LevelSelection
+      value: Level2
       objectReference: {fileID: 0}
     - target: {fileID: 5493845934891826120, guid: c47ac516fbfb0514dab5537bb700f333, type: 3}
       propertyPath: m_RootOrder

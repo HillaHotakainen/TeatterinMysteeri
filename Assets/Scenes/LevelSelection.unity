@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button8
+      value: Level8
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -774,7 +774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button3
+      value: Level3
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -1387,7 +1387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button6
+      value: Level6
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -1562,6 +1562,7 @@ MonoBehaviour:
   unlocked: 1
   lockedImage: {fileID: 298221537}
   star: {fileID: 2075823753}
+  levelDone: {fileID: 0}
 --- !u!114 &1340990080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1744,7 +1745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button5
+      value: Level5
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -1987,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button10
+      value: Level10
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -2208,7 +2209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button7
+      value: Level7
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -2343,7 +2344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button4
+      value: Level4
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -2616,7 +2617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799429, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Name
-      value: Button9
+      value: Level9
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_Pivot.x
@@ -3610,6 +3611,7 @@ MonoBehaviour:
   unlocked: 0
   lockedImage: {fileID: 3183900461333861457}
   star: {fileID: 218933875727609623}
+  levelDone: {fileID: 0}
 --- !u!222 &8144931004920799278
 CanvasRenderer:
   m_ObjectHideFlags: 0
