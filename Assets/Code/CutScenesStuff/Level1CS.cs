@@ -29,29 +29,29 @@ namespace TeatterinMysteeri
         NPC_mover ghostMover;
         void Start()
         {
-        cameraFollow = kamera.GetComponent<CameraFollow>();
-        characterControl = inputProcessor.GetComponent<CharacterControl>();
-        spriteRenderer1 = inputProcessor.GetComponent<SpriteRenderer>();
-        original = spriteRenderer1.sprite;
-        animator = spriteRenderer1.GetComponent<Animator>();
-        ghostMover = ghost.GetComponent<NPC_mover>();
-        inputProcessor.enabled = false;
-        joystick1.enabled = false;
-        joystick2.enabled = false;
-        cameraFollow.enabled = false;
-        characterControl.dontMove = true;
-        animator.enabled = false;
-        spriteRenderer1.sprite = sitSleep;
-        if(!skipCutscene)
-        {
-            StartCoroutine(Cutscene());
-        }
-        else
-        {
-            Destroy(ghost);
-            inputProcessor.transform.position = new Vector3(-0.5f,-0.2f,0f);
-            EnableStuff();
-        }
+            cameraFollow = kamera.GetComponent<CameraFollow>();
+            characterControl = inputProcessor.GetComponent<CharacterControl>();
+            spriteRenderer1 = inputProcessor.GetComponent<SpriteRenderer>();
+            original = spriteRenderer1.sprite;
+            animator = spriteRenderer1.GetComponent<Animator>();
+            ghostMover = ghost.GetComponent<NPC_mover>();
+            inputProcessor.enabled = false;
+            joystick1.enabled = false;
+            joystick2.enabled = false;
+            cameraFollow.enabled = false;
+            characterControl.dontMove = true;
+            animator.enabled = false;
+            spriteRenderer1.sprite = sitSleep;
+            if (!skipCutscene)
+            {
+                StartCoroutine(Cutscene());
+            }
+            else
+            {
+                Destroy(ghost);
+                inputProcessor.transform.position = new Vector3(-0.5f, -0.2f, 0f);
+                EnableStuff();
+            }
         }
 
         IEnumerator Cutscene()
@@ -82,10 +82,10 @@ namespace TeatterinMysteeri
         IEnumerator MoveCharacter()
         {
             Vector2 heroposition = inputProcessor.transform.position;
-            while(heroposition != (new Vector2(-0.5f,-0.2f)))
+            while (heroposition != (new Vector2(-0.5f, -0.2f)))
             {
                 characterControl.MoveInput = Vector2.down;
-                heroposition = Vector2.MoveTowards(heroposition,new Vector2(-0.5f,-0.2f), 2*Time.deltaTime);
+                heroposition = Vector2.MoveTowards(heroposition, new Vector2(-0.5f, -0.2f), 2 * Time.deltaTime);
                 inputProcessor.transform.position = heroposition;
                 yield return null;
             }
@@ -103,18 +103,18 @@ namespace TeatterinMysteeri
             ghostMover.MoveInput = Vector2.right;
             cameraFollow.Target = ghost.transform;
             Vector2 ghostPosition = ghost.transform.position;
-            Vector2 target1 = new Vector2(7.5f,7.5f);
-            Vector2 target2 = new Vector2(7.5f,13.2f);
-            while(ghostPosition != target1)
+            Vector2 target1 = new Vector2(7.5f, 7.5f);
+            Vector2 target2 = new Vector2(7.5f, 13.2f);
+            while (ghostPosition != target1)
             {
-                ghostPosition = Vector2.MoveTowards(ghostPosition, target1, 3*Time.deltaTime);
+                ghostPosition = Vector2.MoveTowards(ghostPosition, target1, 3 * Time.deltaTime);
                 ghost.transform.position = ghostPosition;
                 yield return null;
             }
             ghostMover.MoveInput = Vector2.up;
-            while(ghostPosition != target2 )
+            while (ghostPosition != target2)
             {
-                ghostPosition = Vector2.MoveTowards(ghostPosition, target2, 3*Time.deltaTime);
+                ghostPosition = Vector2.MoveTowards(ghostPosition, target2, 3 * Time.deltaTime);
                 ghost.transform.position = ghostPosition;
                 yield return null;
             }
