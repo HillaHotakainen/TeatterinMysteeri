@@ -11510,6 +11510,10 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1628326730}
+    - target: {fileID: 7094205957069023401, guid: 7920650f43aa4304e8a5fadc300cc0ff, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7094205957069023402, guid: 7920650f43aa4304e8a5fadc300cc0ff, type: 3}
       propertyPath: m_Name
       value: PauseButton
@@ -11597,6 +11601,10 @@ PrefabInstance:
     - target: {fileID: 7094205957069023403, guid: 7920650f43aa4304e8a5fadc300cc0ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094205957069023406, guid: 7920650f43aa4304e8a5fadc300cc0ff, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7920650f43aa4304e8a5fadc300cc0ff, type: 3}

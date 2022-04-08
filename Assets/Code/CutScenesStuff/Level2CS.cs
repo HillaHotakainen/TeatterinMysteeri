@@ -63,7 +63,7 @@ namespace TeatterinMysteeri
             while (heroposition != (new Vector2(3.5f, 1f)))
             {
                 characterControl.MoveInput = Vector2.right;
-                heroposition = Vector2.MoveTowards(heroposition, new Vector2(3.5f, 1f), 2 * Time.deltaTime);
+                heroposition = Vector2.MoveTowards(heroposition, new Vector2(3.5f, 1f), 1 * Time.deltaTime);
                 inputProcessor.transform.position = heroposition;
                 yield return null;
             }

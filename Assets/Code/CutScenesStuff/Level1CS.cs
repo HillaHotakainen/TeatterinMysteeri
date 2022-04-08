@@ -25,6 +25,7 @@ namespace TeatterinMysteeri
         [SerializeField] Sprite sitting;
         [SerializeField] Sprite sitSleep;
         [SerializeField] GameObject zzz;
+        [SerializeField] TextBox tutorial;
         Animator animator;
         NPC_mover ghostMover;
         void Start()
@@ -42,6 +43,7 @@ namespace TeatterinMysteeri
             characterControl.dontMove = true;
             animator.enabled = false;
             spriteRenderer1.sprite = sitSleep;
+            skipCutscene = PlayerPrefs.GetInt("Level1") == 1;
             if (!skipCutscene)
             {
                 StartCoroutine(Cutscene());
@@ -136,6 +138,7 @@ namespace TeatterinMysteeri
         private void EnableStuff()
         {
             Destroy(zzz);
+            tutorial.StartFade();
             cameraFollow.enabled = true;
             inputProcessor.enabled = true;
             joystick1.enabled = true;
