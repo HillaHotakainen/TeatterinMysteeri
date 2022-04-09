@@ -43,7 +43,9 @@ namespace TeatterinMysteeri
                 }
             }
             mover = closest.GetComponent<WaypointMover>();
-            mover.caught = true;
+            if (mover != null) {
+                mover.caught = true;
+            }
         }
     }
 }
