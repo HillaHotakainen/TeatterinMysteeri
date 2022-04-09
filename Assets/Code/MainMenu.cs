@@ -7,9 +7,24 @@ namespace TeatterinMysteeri
 {
     public class MainMenu : MonoBehaviour
     {
+        private bool fadeDone;
+
+        private void Start()
+        {
+            StartCoroutine("MakeClickable");
+        }
+
+        IEnumerator MakeClickable()
+        {
+            yield return new WaitForSeconds(1.0f);
+            fadeDone = true;
+        }
         public void PlayGame()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(fadeDone)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 }
