@@ -19,8 +19,10 @@ namespace TeatterinMysteeri
         {
             if (hero.transform.position.y > transform.position.y) {
                 spr.sortingOrder = frontLayer;
+                Debug.Log("IN FRoNT");
             } else {
                 spr.sortingOrder = behindLayer;
+                Debug.Log("BEHIN");
             }
         }
     }

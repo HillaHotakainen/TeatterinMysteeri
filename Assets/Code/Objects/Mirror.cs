@@ -1,3 +1,5 @@
+// haluan pyytää henkilökohtaisesti anteeksi siltä, kuka joutuu lukemaan tämän tiedoston
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -102,6 +104,9 @@ namespace TeatterinMysteeri
             if (reflectingVer) {
                 if (beam == null) {
                     beam = Instantiate(vaaka, transform.position + sideHor, Quaternion.identity).gameObject;
+                } else if (beam.name == "Valopysty(Clone)") {
+                    Destroy(beam);
+                    beam = Instantiate(vaaka, transform.position + sideHor, Quaternion.identity).gameObject;
                 }
                 closestCollider = Physics2D.Raycast(transform.position + sideHor/2, sideHor, 50f, ~(1 << 10 | 1 << 11));
                 beam.transform.position = new Vector2(transform.position.x + sideHor.x * closestCollider.distance/2 + sideHor.x/2, transform.position.y);
@@ -113,6 +118,9 @@ namespace TeatterinMysteeri
             }
             if (reflectingHor) {
                 if (beam == null) {
+                    beam = Instantiate(pysty, transform.position + sideVer, Quaternion.identity).gameObject;
+                } else if (beam.name == "Valovaaka(Clone)") {
+                    Destroy(beam);
                     beam = Instantiate(pysty, transform.position + sideVer, Quaternion.identity).gameObject;
                 }
                 closestCollider = Physics2D.Raycast(transform.position + sideVer/2, sideVer, 50f, ~(1 << 10 | 1 << 11));
