@@ -12,9 +12,11 @@ namespace TeatterinMysteeri
         {
             None,
             Started,
-            InProgress
+            InProgress,
+            Options
         }
         public const string LoaderName = "Loader";
+        public const string OptionsName = "OptionsMenu";
 
         public static LevelLoader Current
         {
@@ -29,6 +31,7 @@ namespace TeatterinMysteeri
         private string nextSceneName;
         // viittaus loading-sceneen
         private Scene loadingScene;
+        private Scene optionsScene;
 
         // Nk. Singleton, eli tästä oliosta voi olla vain yksi kopio olemassa kerralla
         private void Awake()
@@ -63,6 +66,18 @@ namespace TeatterinMysteeri
             // ladataan loading screen additiivisesti (nykyisen scenen rinnalle)
             SceneManager.LoadSceneAsync(LoaderName, LoadSceneMode.Additive);
         }
+
+        public void LoadOptions()
+        {
+            Debug.Log("toimi saatana");
+            state = LoadingState.Options;
+            SceneManager.LoadSceneAsync(OptionsName, LoadSceneMode.Additive);
+        }
+
+        public void CloseOptions()
+        {
+            SceneManager.UnloadSceneAsync(optionsScene);
+        }
         private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
         {
             switch(state)
@@ -95,6 +110,9 @@ namespace TeatterinMysteeri
                             break; // poistutaa loopista
                         }
                     }
+                break;
+            case LoadingState.Options:
+                optionsScene = scene;
                 break;
             }
         }

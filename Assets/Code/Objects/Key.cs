@@ -52,10 +52,21 @@ namespace TeatterinMysteeri
         }
         public void OnPointerDown(PointerEventData eventData)
         {
-            if (closeEnough) {
+            AudioSource audio = gameObject.GetComponent<AudioSource>();
+            SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+            float delay = 0;
+
+            if (closeEnough && audio != null) 
+            {
+                audio.Play();
+                delay = audio.clip.length;
+                if(delay != 0)
+                {
+                    renderer.enabled = false;
+                }
                 Debug.Log("Got the key!");
                 keyHolder.GetKey();         //Hakee keyHolderin GetKey-metodia, joka laittaa tämän avaimen
-                Destroy(gameObject);        //Spriten keyHolderille, jonka jälkeen poistaa tämän gameobjectin
+                Destroy(gameObject, delay);        //Spriten keyHolderille, jonka jälkeen poistaa tämän gameobjectin
                 textBox.StartFade();
             }
         }

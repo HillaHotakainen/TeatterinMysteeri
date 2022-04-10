@@ -66,6 +66,7 @@ namespace TeatterinMysteeri
         }
         public void OnPointerDown(PointerEventData eventData)
         {
+            AudioSource audio = GetComponent<AudioSource>();
             // liikkumiskäsky lähetetään vain, jos ollaan tarpeeksi lähellä ja laatikko ei jo liiku
             if (closeEnough & !moving) {
                 targetPos = transform.position + direction;
@@ -83,6 +84,10 @@ namespace TeatterinMysteeri
                         Debug.Log("The crate can't be pushed there!");
                     }
                 }
+            }
+            if (closeEnough && moving)
+            {
+                audio.Play();
             }
         }
     }
