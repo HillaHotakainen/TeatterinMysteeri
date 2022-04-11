@@ -13,8 +13,11 @@ namespace TeatterinMysteeri
         private List<bool> receiverStatuses = new List<bool>();
         private Collider2D hitbox;
         private SpriteRenderer spr;
+        AudioSource audioSource;
+        private bool soundPlaying = false;
         void Start()
         {
+            audioSource = GetComponent<AudioSource>();
             spr = GetComponent<SpriteRenderer>();
             hitbox = GetComponent<Collider2D>();
         }
@@ -33,11 +36,17 @@ namespace TeatterinMysteeri
             }
 
             if (unlocked) {
+                if(audioSource != null && !soundPlaying)
+                {
+                    audioSource.Play();
+                    soundPlaying = true;
+                }
                 spr.sprite = open;
                 hitbox.enabled = false;
             } else {
                 spr.sprite = closed;
                 hitbox.enabled = true;
+                soundPlaying = false;
             }
         }
     }
