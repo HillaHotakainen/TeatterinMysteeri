@@ -19,7 +19,30 @@ namespace TeatterinMysteeri
             fl = GetComponent<Flashlight>();
             fl.direction = direction;
 
-            switch (direction) {
+            switch (direction)
+            {
+                case "up":
+                    spr.sprite = upGuard;
+                    break;
+                case "down":
+                    spr.sprite = downGuard;
+                    break;
+                case "right":
+                    spr.sprite = rightGuard;
+                    break;
+                case "left":
+                    spr.sprite = leftGuard;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public void NewDirection(string dir)
+        {
+            fl.direction = dir;
+            switch (dir)
+            {
                 case "up":
                     spr.sprite = upGuard;
                     break;
