@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8f963d509a5e34e8fdca166e3a02d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frontLayer: 6
+  frontLayer: 7
   behindLayer: 4
 --- !u!114 &-3985235993287469427
 MonoBehaviour:
