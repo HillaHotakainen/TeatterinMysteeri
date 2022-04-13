@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -3985235993287469427}
   - component: {fileID: 4357830259586497097}
   - component: {fileID: -8527337198946707850}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Vartija
   m_TagString: Guard
   m_Icon: {fileID: 0}
