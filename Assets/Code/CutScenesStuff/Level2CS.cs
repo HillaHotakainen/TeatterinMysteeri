@@ -12,6 +12,7 @@ namespace TeatterinMysteeri
         [SerializeField] Image joystick2;
         [SerializeField] Camera kamera; //13,4.5
         [SerializeField] MultiTextBox firstDialogue;
+        [SerializeField] MultiTextBox secondDialogue;
         [SerializeField] GameObject cameraDestination;
         public bool skipCutscene;
         bool movementDone = false;
@@ -38,6 +39,7 @@ namespace TeatterinMysteeri
         IEnumerator StartCutscene()
         {
             StartCoroutine("MoveCharacter");
+            secondDialogue.BeginText();
             yield return new WaitUntil(() => movementDone);
             movementDone = false;
             StartCoroutine("MoveCamera");

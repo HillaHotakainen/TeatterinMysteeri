@@ -17,6 +17,9 @@ namespace TeatterinMysteeri
         [SerializeField] MultiTextBox thirdDialogue;
         [SerializeField] MultiTextBox fourthDialogue;
         [SerializeField] MultiTextBox fifthDialogue;
+        [SerializeField] TextBox tutorial;
+        [SerializeField] AudioSource crashSound;
+        [SerializeField] AudioSource doorSound;
         CameraFollow cameraFollow;
         CharacterControl characterControl;
         public bool skipCutscene;
@@ -53,6 +56,7 @@ namespace TeatterinMysteeri
             yield return new WaitUntil(() => firstDialogue.TextDone && movementDone);
             movementDone = false;
             yield return new WaitForSeconds(1f);
+            doorSound.Play();
             StartCoroutine("MoveVM");
             yield return new WaitForSeconds(1f);
             secondDialogue.BeginText();
@@ -65,8 +69,13 @@ namespace TeatterinMysteeri
             yield return new WaitForSeconds(1.0f);
             cameraFollow.Target = vahtiMestari.transform;
             fourthDialogue.BeginText();
+            yield return new WaitForSeconds(4.0f);
+            vmMover.MoveInput = Vector2.down;
+            crashSound.Play();
+            yield return new WaitForSeconds(4.5f);
             StartCoroutine("MoveVM2");
             yield return new WaitUntil(() => fourthDialogue.TextDone);
+            doorSound.Play();
             yield return new WaitForSeconds(0.7f);
             cameraFollow.Target = inputProcessor.transform;
             characterControl.MoveInput = Vector2.down;
@@ -157,6 +166,7 @@ namespace TeatterinMysteeri
             inputProcessor.enabled = true;
             joystick1.enabled = true;
             joystick2.enabled = true;
+            tutorial.StartFade();
         }
     }
 }

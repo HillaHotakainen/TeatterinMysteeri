@@ -3427,13 +3427,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 2121744649}
   delayAfter: 1
-  timeBetweenCharacters: 0.1
+  timeBetweenCharacters: 0.07
   secondsBeforeDestroy: 1
   stringArray:
-  - "Mik\xE4 toi oli?!"
-  - "Oliko tuo se kummitus mist\xE4 kaikki puhuu?"
-  - "Se n\xE4ytti menev\xE4n k\xE4yt\xE4v\xE4n p\xE4\xE4ss\xE4 olevasta ovesta..."
-  - "Pakko menn\xE4 katsomaan n\xE4ink\xF6 vain n\xE4kyj\xE4."
+  - "N\xE4kik\xF6h\xE4n joku minut?"
 --- !u!224 &542553907 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -7526,8 +7523,8 @@ MonoBehaviour:
   timeBetweenCharacters: 0.07
   secondsBeforeDestroy: 1
   stringArray:
-  - "vittu t\xE4\xE4l on vartijoita"
-  - "pit\xE4\xE4 varoo lmao"
+  - "Huh huh, t\xE4\xE4ll\xE4h\xE4n on t\xE4n\xE4 y\xF6n\xE4 paljon vartijoita."
+  - "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi v\xE4istell\xE4 valoja."
 --- !u!224 &913526869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -12968,6 +12965,7 @@ MonoBehaviour:
   joystick2: {fileID: 1669624070}
   kamera: {fileID: 1749190874}
   firstDialogue: {fileID: 913526868}
+  secondDialogue: {fileID: 542553906}
   cameraDestination: {fileID: 933998433}
   skipCutscene: 1
 --- !u!4 &1797940178
