@@ -9,16 +9,21 @@ namespace TeatterinMysteeri
     {
         [SerializeField] bool onlyGhost = false;
         WaypointMover mover;
+        Collider2D hitbox;
         private void OnTriggerEnter2D(Collider2D other) {
             if (onlyGhost) {
                 if (other.name == "Ghost") {
                     CharacterControl ctrl = other.GetComponent<CharacterControl>();
                     ctrl.dontMove = true;
+                    hitbox = other.GetComponent<Collider2D>();
+                    hitbox.enabled = false;
                     RestartLevel();
                 }
             } else if (other.name == "Ghost" | other.name == "Hero") {
                 CharacterControl ctrl = other.GetComponent<CharacterControl>();
                 ctrl.dontMove = true;
+                hitbox = other.GetComponent<Collider2D>();
+                hitbox.enabled = false;
                 RestartLevel();
             }
         }
