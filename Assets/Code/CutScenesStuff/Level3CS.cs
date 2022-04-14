@@ -37,6 +37,7 @@ namespace TeatterinMysteeri
             vmSprite = vahtiMestari.GetComponent<SpriteRenderer>();
             vmMover = vahtiMestari.GetComponent<NPC_mover>();
             vmSprite.enabled = false;
+            skipCutscene = PlayerPrefs.GetInt("Level3Cutscene") == 1;
             if(!skipCutscene)
             {
                 StartCoroutine("StartCutscene");
@@ -166,6 +167,7 @@ namespace TeatterinMysteeri
             inputProcessor.enabled = true;
             joystick1.enabled = true;
             joystick2.enabled = true;
+            PlayerPrefs.SetInt("Level3Cutscene", 1);
             tutorial.StartFade();
         }
     }

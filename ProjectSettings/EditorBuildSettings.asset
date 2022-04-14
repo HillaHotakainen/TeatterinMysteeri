@@ -35,13 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level8.unity
     guid: 4a18ef8747f738c45b6e1c81c664e27a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Testaus.unity
     guid: 087081c3f18dd344c8ecbc75463ca657
   - enabled: 1
     path: Assets/Scenes/Loader.unity
     guid: b020550c00be1e243a668b2626459a7c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8392073e190f9c14da5f51f177752a93
   - enabled: 1

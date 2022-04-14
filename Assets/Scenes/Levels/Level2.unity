@@ -13036,7 +13036,7 @@ MonoBehaviour:
   firstDialogue: {fileID: 913526868}
   secondDialogue: {fileID: 542553906}
   cameraDestination: {fileID: 933998433}
-  skipCutscene: 1
+  skipCutscene: 0
 --- !u!4 &1797940178
 Transform:
   m_ObjectHideFlags: 0

@@ -43,7 +43,7 @@ namespace TeatterinMysteeri
             characterControl.dontMove = true;
             animator.enabled = false;
             spriteRenderer1.sprite = sitSleep;
-            //skipCutscene = PlayerPrefs.GetInt("Level1Cutscene") == 1;
+            skipCutscene = PlayerPrefs.GetInt("Level1Cutscene") == 1;
             if (!skipCutscene)
             {
                 StartCoroutine(Cutscene());

@@ -25,6 +25,7 @@ namespace TeatterinMysteeri
             joystick1.enabled = false;
             joystick2.enabled = false;
             characterControl = inputProcessor.GetComponent<CharacterControl>();
+            skipCutscene = PlayerPrefs.GetInt("Level2Cutscene") == 1;
             if(!skipCutscene)
             {
                 StartCoroutine("StartCutscene");
@@ -78,6 +79,7 @@ namespace TeatterinMysteeri
             inputProcessor.enabled = true;
             joystick1.enabled = true;
             joystick2.enabled = true;
+            PlayerPrefs.SetInt("Level2Cutscene", 1);
         }
     }
 }
