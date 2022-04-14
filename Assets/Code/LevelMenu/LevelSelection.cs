@@ -29,12 +29,18 @@ namespace TeatterinMysteeri
             if(!unlocked)
             {
                 lockedImage.gameObject.SetActive(true);
-                star.gameObject.SetActive(false);
             }
             else
             {
                 lockedImage.gameObject.SetActive(false);
+            }
+            if(PlayerPrefs.GetInt(name+"Completed")==1)
+            {
                 star.gameObject.SetActive(true);
+            }
+            else
+            {
+                star.gameObject.SetActive(false);
             }
         }
 

@@ -9,8 +9,9 @@ namespace TeatterinMysteeri
     public class SceneChanger : MonoBehaviour, IPointerDownHandler
     {
 
-        [SerializeField]
-        private string sceneName;
+        [SerializeField] private string sceneName;
+        [SerializeField] private string thisSceneName;
+        [SerializeField] private string nextSceneName;
         public bool cantClick;
         private bool waitDone = false;
         private void Start()
@@ -38,7 +39,8 @@ namespace TeatterinMysteeri
 
         private void SaveProgress()
         {
-            PlayerPrefs.SetInt(sceneName, 1);
+            PlayerPrefs.SetInt(thisSceneName + "Completed", 1);
+            PlayerPrefs.SetInt(nextSceneName, 1);
             PlayerPrefs.Save();
         }
     }
