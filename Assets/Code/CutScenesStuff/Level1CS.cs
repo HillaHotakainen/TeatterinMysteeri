@@ -138,7 +138,6 @@ namespace TeatterinMysteeri
         private void EnableStuff()
         {
             Destroy(zzz);
-            tutorial.StartFade();
             cameraFollow.enabled = true;
             inputProcessor.enabled = true;
             joystick1.enabled = true;
@@ -146,6 +145,7 @@ namespace TeatterinMysteeri
             characterControl.dontMove = false;
             animator.enabled = true;
             PlayerPrefs.SetInt("Level1Cutscene", 1);
+            tutorial.StartFade();
         }
     }
 }
