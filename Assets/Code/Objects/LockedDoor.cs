@@ -15,10 +15,13 @@ namespace TeatterinMysteeri
         private GameObject hero;
         private bool closeEnough;
         Collider2D hitbox;
+        AudioSource audioSource;
+        private bool soundPlaying = false;
         private void Start()
         {
             hero = GameObject.FindGameObjectsWithTag("Player")[0];
             hitbox = GetComponent<Collider2D>();
+            audioSource = GetComponent<AudioSource>();
         }
         private void Update()
         {
@@ -44,6 +47,11 @@ namespace TeatterinMysteeri
                 SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
                 spriteRenderer.sprite = openDoor;
                 hitbox.enabled = false;
+                if(audioSource != null && !soundPlaying)
+                {
+                    audioSource.Play();
+                    soundPlaying = true;
+                }
             }
         }
     }

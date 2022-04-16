@@ -85,9 +85,9 @@ namespace TeatterinMysteeri
                     }
                 }
             }
-            if (closeEnough && moving)
+            if (closeEnough && moving && audio != null)
             {
-                //audio.Play();
+                audio.Play();
             }
         }
     }

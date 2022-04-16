@@ -168,6 +168,11 @@ namespace TeatterinMysteeri
             joystick1.enabled = true;
             joystick2.enabled = true;
             PlayerPrefs.SetInt("Level3Cutscene", 1);
+            StartCoroutine("WaitFrame");
+        }
+        IEnumerator WaitFrame()
+        {
+            yield return null;
             tutorial.StartFade();
         }
     }

@@ -55,9 +55,15 @@ namespace TeatterinMysteeri
                 EnableStuff();
             }
         }
+        IEnumerator WaitFrame()
+        {
+            yield return null;
+            tutorial.StartFade();
+        }
 
         IEnumerator Cutscene()
         {
+            yield return null;
             firstDialogue.BeginText();
             yield return new WaitForSeconds(2.0f);
             zzz.SetActive(false);
@@ -145,7 +151,7 @@ namespace TeatterinMysteeri
             characterControl.dontMove = false;
             animator.enabled = true;
             PlayerPrefs.SetInt("Level1Cutscene", 1);
-            tutorial.StartFade();
+            StartCoroutine("WaitFrame");
         }
     }
 }
