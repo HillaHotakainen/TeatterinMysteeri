@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Strings_fi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fi
+  m_SharedData: {fileID: 11400000, guid: 0dde97bf991bc49469ef9b566bd98be9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 997138329600
+    m_Localized: Takaisin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10499875106816
+    m_Localized: Asetukset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11556810354688
+    m_Localized: "\xC4\xE4ni"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11662397763584
+    m_Localized: Kieli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11839229620224
+    m_Localized: "Jatka Peli\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11929109360640
+    m_Localized: Tasovalikko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12179156987904
+    m_Localized: "P\xE4\xE4valikko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13858422091776
+    m_Localized: Suomi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13970204487680
+    m_Localized: Englanti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19032821690368
+    m_Localized: Tauko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20594767917056
+    m_Localized: "Voit ty\xF6nt\xE4\xE4 laatikkoa siirtym\xE4ll\xE4 sen viereen ja
+      painamalla sit\xE4 sormellasi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21299306131456
+    m_Localized: Voit liikuttaa hahmoa vasemmassa alanurkassa olevalla tatilla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22297714061312
+    m_Localized: "L\xF6ysit avaimen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42566079967232
+    m_Localized: Pelaa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42633432100864
+    m_Localized: Krediitit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42735286579200
+    m_Localized: Sulje Peli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42931508703232
+    m_Localized: Teatterin Mysteeri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56629996515328
+    m_Localized: terve
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
