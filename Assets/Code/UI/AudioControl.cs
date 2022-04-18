@@ -39,11 +39,6 @@ namespace TeatterinMysteeri
             return Mathf.Clamp01(Mathf.Pow(10.0f, db / 20.0f));
         }
 
-        //void Update()
-        //{
-        //    Save();
-        //}
-
         public void SetSliderValue(float volume)
         {
             slider.value = volume;
@@ -58,6 +53,5 @@ namespace TeatterinMysteeri
         {
             mixer.SetFloat(volumeName, ToDB(slider.value));
         }
-
     }
 }
