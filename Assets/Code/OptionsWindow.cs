@@ -27,6 +27,14 @@ namespace TeatterinMysteeri
         {
             musicControl.Setup(mixer, musicVolumeName);
             sfxControl.Setup(mixer, sfxVolumeName);
+            if(PlayerPrefs.HasKey("musicVolume"))
+            {
+                musicControl.SetSliderValue(PlayerPrefs.GetFloat("musicVolume"));
+            }
+            if(PlayerPrefs.HasKey("sfxVolume"))
+            {
+                sfxControl.SetSliderValue(PlayerPrefs.GetFloat("sfxVolume"));
+            }
         }
         public void Open()
         {
@@ -35,7 +43,9 @@ namespace TeatterinMysteeri
         public void Close()
         {
             musicControl.Save();
+            PlayerPrefs.SetFloat("musicVolume", musicControl.GetSliderValue());
             sfxControl.Save();
+            PlayerPrefs.SetFloat("sfxVolume", sfxControl.GetSliderValue());
             LevelLoader.Current.CloseOptions();
         }
     }

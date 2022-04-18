@@ -2141,6 +2141,34 @@ PrefabInstance:
       propertyPath: m_MinValue
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1986100526}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Save
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TeatterinMysteeri.AudioControl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6667980065618786409, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2399,6 +2427,34 @@ PrefabInstance:
     - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
       propertyPath: m_MinValue
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1307320222176699652}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Save
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TeatterinMysteeri.AudioControl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088975524999859075, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6667980065618786409, guid: ee1a6ff672b131a4e93f765314259bcc, type: 3}
       propertyPath: m_AnchorMax.x
