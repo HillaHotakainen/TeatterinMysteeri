@@ -88,7 +88,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56629996515328
-    m_Localized: hello
+    m_Localized: Some doors only open when you shine a beam of light towards a crystal.
     m_Metadata:
       m_Items: []
   references:

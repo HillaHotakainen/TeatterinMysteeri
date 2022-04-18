@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CutScenes_fi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fi
+  m_SharedData: {fileID: 11400000, guid: 1b8ba28655ae27c44a613640b278a126, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 61319933952
+    m_Localized: zzz...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357152583680
+    m_Localized: '*snap*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366052896768
+    m_Localized: Oho, piti ottaa vaan pienet torkut...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373007052800
+    m_Localized: "Mutta kohtahan onkin jo keskiy\xF6!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2859973472256
+    m_Localized: Hui!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2921722015744
+    m_Localized: Olikohan tuo se teatterin legendaarinen kummitus?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929280151552
+    m_Localized: "Taidanpa menn\xE4 selvitt\xE4m\xE4\xE4n asiaa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3756942159872
+    m_Localized: "Huh huh, t\xE4\xE4ll\xE4h\xE4n on t\xE4n\xE4 y\xF6n\xE4 paljon
+      vartijoita."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3763279753216
+    m_Localized: "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi v\xE4istell\xE4
+      valoja."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4537497939968
+    m_Localized: "N\xE4kik\xF6h\xE4n joku minut?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5803456327680
+    m_Localized: "Se haamu taisi tulla t\xE4nne p\xE4in..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6220508557312
+    m_Localized: "Kuka siell\xE4?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6278272512000
+    m_Localized: "Ei t\xE4\xE4ll\xE4 t\xE4h\xE4n aikaan saisi en\xE4\xE4 py\xF6ri\xE4!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6689700179968
+    m_Localized: "Anteeksi, mutta olen melko varma ett\xE4 n\xE4in kummituksen t\xE4\xE4ll\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7082345754624
+    m_Localized: "Ei t\xE4\xE4ll\xE4 mit\xE4\xE4n kummituksia ole!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7130215346176
+    m_Localized: "*r\xE4ks*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7212096548864
+    m_Localized: "Mik\xE4 tuo \xE4\xE4ni oli? Onko t\xE4\xE4ll\xE4 varkaita?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7266425368576
+    m_Localized: "Pakko menn\xE4 katsomaan, l\xE4hde sin\xE4kin kotiin siit\xE4!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8423197634560
+    m_Localized: "Miksik\xF6h\xE4n h\xE4n meni noin vaikeaksi kun mainitsin haamun?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8427756843008
+    m_Localized: "Salaileekohan h\xE4n jotain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8430709633024
+    m_Localized: "Pakko l\xF6yt\xE4\xE4 se kummitus..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9688170360832
+    m_Localized: "Kannattaa varmaan varoa noita valonheittimi\xE4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9752959774720
+    m_Localized: "Haamut ja kirkkaat valot eiv\xE4t ole hyv\xE4 yhdistelm\xE4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10301847367680
+    m_Localized: "Sen haamun on pakko olla jossain t\xE4\xE4ll\xE4 p\xE4in..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10521071054848
+    m_Localized: "Onpas t\xE4\xE4ll\xE4 vartijoita!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10559109197824
+    m_Localized: "Ne ei varmaan halua, ett\xE4 ihmiset liikkuu t\xE4\xE4ll\xE4 p\xE4in."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10583184502784
+    m_Localized: "Pit\xE4\xE4 varoa heit\xE4."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

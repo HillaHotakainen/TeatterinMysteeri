@@ -88,7 +88,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56629996515328
-    m_Localized: terve
+    m_Localized: "Jotkut ovet aukeavat, kun ohjaat valons\xE4teen kristallien l\xE4pi."
     m_Metadata:
       m_Items: []
   references:

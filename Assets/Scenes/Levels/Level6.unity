@@ -5887,6 +5887,33 @@ MonoBehaviour:
   - "Onpas t\xE4\xE4ll\xE4 vartijoita!"
   - "Ne ei varmaan halua, ett\xE4 ihmiset liikkuu t\xE4\xE4ll\xE4 p\xE4in."
   - "Pit\xE4\xE4 varoa."
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 10521071054848
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 10559109197824
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 10583184502784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!224 &542553907 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -8672,6 +8699,17 @@ MonoBehaviour:
   secondsBeforeDestroy: 1
   stringArray:
   - "Sen haamun on pakko olla jossain t\xE4\xE4ll\xE4 p\xE4in..."
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 10301847367680
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!224 &913526869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}

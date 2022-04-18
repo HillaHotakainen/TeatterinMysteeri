@@ -22,6 +22,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
+  - m_GUID: 0efcb0f247e7f264cbb4309fb2b37f3e
+    m_Address: CutScenes_fi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2606154a3199f124fbc85f272f7150d3, type: 2}
   m_SchemaSet:

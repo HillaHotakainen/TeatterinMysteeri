@@ -4098,6 +4098,17 @@ MonoBehaviour:
   secondsBeforeDestroy: 1
   stringArray:
   - "N\xE4kik\xF6h\xE4n joku minut?"
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 4537497939968
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!224 &542553907 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -8644,6 +8655,25 @@ MonoBehaviour:
   stringArray:
   - "Huh huh, t\xE4\xE4ll\xE4h\xE4n on t\xE4n\xE4 y\xF6n\xE4 paljon vartijoita."
   - "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi v\xE4istell\xE4 valoja."
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 3756942159872
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 3763279753216
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!224 &913526869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}

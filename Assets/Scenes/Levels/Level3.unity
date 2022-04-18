@@ -924,6 +924,33 @@ MonoBehaviour:
   - "Miksik\xF6h\xE4n h\xE4n meni noin vaikeaksi kun mainitsin haamun..."
   - "Salaileekohan h\xE4n jotain?"
   - "Pakko l\xF6yt\xE4\xE4 se kummitus..."
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 8423197634560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 8427756843008
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 8430709633024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!224 &368310417 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6225027549196803587, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -958,6 +985,25 @@ MonoBehaviour:
   stringArray:
   - "Kuka siell\xE4?!"
   - "Ei t\xE4\xE4ll\xE4 t\xE4h\xE4n aikaan saisi en\xE4\xE4 py\xF6ri\xE4!"
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 6220508557312
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 6278272512000
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!1 &460844419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,6 +2414,17 @@ MonoBehaviour:
   secondsBeforeDestroy: 1
   stringArray:
   - "Anteeksi, mutta olen melko varma ett\xE4 n\xE4in kummituksen t\xE4\xE4ll\xE4"
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 6689700179968
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!1001 &733088977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2457,6 +2514,17 @@ MonoBehaviour:
   secondsBeforeDestroy: 1
   stringArray:
   - "Se haamu taisi tulla t\xE4nne p\xE4in..."
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 5803456327680
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!114 &758090223 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -3583,6 +3651,41 @@ MonoBehaviour:
   - "*r\xE4ks*"
   - "Mik\xE4 tuo \xE4\xE4ni oli? Onko t\xE4\xE4ll\xE4 varkaita?!"
   - "Pakko menn\xE4 katsomaan, l\xE4hde sin\xE4kin kotiin siit\xE4!"
+  localizedStrings:
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 7082345754624
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 7130215346176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 7212096548864
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:1b8ba28655ae27c44a613640b278a126
+    m_TableEntryReference:
+      m_KeyId: 7266425368576
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!1 &1106570770
 GameObject:
   m_ObjectHideFlags: 0
@@ -4272,6 +4375,61 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c234dbad9abdac8439b1eac5e288c560, type: 3}
+--- !u!114 &1154001779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2340027033869748333, guid: c234dbad9abdac8439b1eac5e288c560, type: 3}
+  m_PrefabInstance: {fileID: 1154001778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1154001780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2340027032216827458, guid: c234dbad9abdac8439b1eac5e288c560, type: 3}
+  m_PrefabInstance: {fileID: 1154001778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1154001781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154001780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:0dde97bf991bc49469ef9b566bd98be9
+    m_TableEntryReference:
+      m_KeyId: 56629996515328
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1154001779}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 1
 --- !u!1001 &1168775330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12780,7 +12938,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2340027032216827462, guid: c234dbad9abdac8439b1eac5e288c560, type: 3}
   m_PrefabInstance: {fileID: 1154001778}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1154001780}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98022e1c6a12e1b4a9e224d0f0412b5b, type: 3}

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CutScenes_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1b8ba28655ae27c44a613640b278a126, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 61319933952
+    m_Localized: zzz...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357152583680
+    m_Localized: '*snap*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366052896768
+    m_Localized: It was supposed to be just a small nap...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373007052800
+    m_Localized: But it's almost midnight!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2859973472256
+    m_Localized: Woah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2921722015744
+    m_Localized: Was that the legendary ghost of the theatre?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929280151552
+    m_Localized: I better go find out!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3756942159872
+    m_Localized: Damn, there's a lot of guards around tonight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3763279753216
+    m_Localized: I really don't like those flashlights, I better avoid those lights.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4537497939968
+    m_Localized: Did anyone see me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5803456327680
+    m_Localized: I think I saw the ghost somwhere around here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6220508557312
+    m_Localized: Who's there?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6278272512000
+    m_Localized: You shouldn't be wandering around at this hour!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6689700179968
+    m_Localized: I'm sorry, but I think I saw a ghost around here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7082345754624
+    m_Localized: There's no ghosts around here!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7130215346176
+    m_Localized: '*bang*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7212096548864
+    m_Localized: What was that noise? A thief?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7266425368576
+    m_Localized: I better go take a look, you should go home too!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8423197634560
+    m_Localized: Why did he get so mad when I mentioned the ghost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8427756843008
+    m_Localized: Is he hiding something?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8430709633024
+    m_Localized: I have to find that ghost...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9688170360832
+    m_Localized: I better be careful around those light projectors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9752959774720
+    m_Localized: Ghosts and bright lights aren't a good combination.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10301847367680
+    m_Localized: That ghost has to be somewhere around here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10521071054848
+    m_Localized: There's a lot of guards around here!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10559109197824
+    m_Localized: I guess they don't want people wandering around here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10583184502784
+    m_Localized: I have to be careful around them.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

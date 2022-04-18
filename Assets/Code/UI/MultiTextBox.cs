@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 namespace TeatterinMysteeri
 {
@@ -13,6 +14,7 @@ namespace TeatterinMysteeri
         [SerializeField] float timeBetweenCharacters = 0.1f;
         [SerializeField] float secondsBeforeDestroy = 2.0f;
         [SerializeField] string[] stringArray;
+        [SerializeField] LocalizedString[] localizedStrings;
         private bool textDone = false;
         private Image image;
         string writer;
@@ -46,9 +48,9 @@ namespace TeatterinMysteeri
 
         IEnumerator TypeWriterTMP()
         {
-            foreach (string dialog in stringArray)
+            foreach (LocalizedString dialog in localizedStrings)
             {
-                NextBox(dialog);
+                NextBox(dialog.GetLocalizedString());
                 foreach (char c in writer)
                 {
                     tmptext.text += c;
