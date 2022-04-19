@@ -128,5 +128,33 @@ MonoBehaviour:
     m_Localized: "Pit\xE4\xE4 varoa heit\xE4."
     m_Metadata:
       m_Items: []
+  - m_Id: 342574585081856
+    m_Localized: Tarinamme alkaa Tampereen Teatterilta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342799504633856
+    m_Localized: "Olet uusi teatterity\xF6ntekij\xE4, ja olet tullut auttamaan uuden
+      n\xE4yt\xF6ksen luomisessa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343639665668096
+    m_Localized: "Ensimm\xE4inen p\xE4iv\xE4si oli t\xE4ynn\xE4 menoa ja meininki\xE4,
+      mutta nyt ilta h\xE4\xE4m\xF6tt\xE4\xE4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346256529682432
+    m_Localized: "Pukuhuoneeseen p\xE4\xE4sty\xE4si istut alas, ja huomaat kuinka
+      v\xE4synyt olet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 347864013467648
+    m_Localized: "Tuntuu, ett\xE4 et jaksa liikkua mihink\xE4\xE4n josset saa otettua
+      pieni\xE4 torkkuja."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348939000999936
+    m_Localized: "P\xE4\xE4t\xE4t siis sulkea silm\xE4si hetkeksi..."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

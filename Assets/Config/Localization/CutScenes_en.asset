@@ -126,5 +126,30 @@ MonoBehaviour:
     m_Localized: I have to be careful around them.
     m_Metadata:
       m_Items: []
+  - m_Id: 342574585081856
+    m_Localized: Our story begins at the Tampere Theatre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342799504633856
+    m_Localized: You're a new employee at the theatre, breathing life into a brand
+      new performance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343639665668096
+    m_Localized: Your first day was very busy, but now it's finally evening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346256529682432
+    m_Localized: Once you get to the dressing room, you realize how tired you are.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 347864013467648
+    m_Localized: You feel like you need a quick power nap, just to move a muscle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348939000999936
+    m_Localized: So you decide to close your eyes, just for a bit...
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
