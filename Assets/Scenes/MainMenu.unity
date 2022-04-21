@@ -1243,8 +1243,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pelaa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
-  m_sharedMaterial: {fileID: -2613272374029546877, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
+  m_sharedMaterial: {fileID: -2719779751423995128, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1870,8 +1870,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
-  m_sharedMaterial: {fileID: -2613272374029546877, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
+  m_sharedMaterial: {fileID: -2719779751423995128, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2079,8 +2079,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Asetukset
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
-  m_sharedMaterial: {fileID: -2613272374029546877, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
+  m_sharedMaterial: {fileID: -2719779751423995128, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3978,7 +3978,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773140154}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -4186,7 +4186,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 150, y: -100}
-  m_SizeDelta: {x: 1389.3, y: 100}
+  m_SizeDelta: {x: 1200, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1888103258
 MonoBehaviour:
@@ -4212,8 +4212,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
-  m_sharedMaterial: {fileID: -2613272374029546877, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
+  m_sharedMaterial: {fileID: -2719779751423995128, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4243,7 +4243,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 32
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -4695,8 +4695,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Krediitit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
-  m_sharedMaterial: {fileID: -2613272374029546877, guid: 18a0aff49a32c194983788cd7ae00a4f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
+  m_sharedMaterial: {fileID: -2719779751423995128, guid: 26cc580b54685d044be61b19d4566fbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4920,7 +4920,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069235242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
