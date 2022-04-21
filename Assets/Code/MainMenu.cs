@@ -16,7 +16,7 @@ namespace TeatterinMysteeri
 
         IEnumerator MakeClickable()
         {
-            yield return new WaitForSeconds(1.0f);
+            yield return null;
             fadeDone = true;
         }
         public void PlayGame()

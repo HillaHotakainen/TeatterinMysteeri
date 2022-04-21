@@ -20,7 +20,7 @@ namespace TeatterinMysteeri
 
         IEnumerator Wait()          //Odottaa sekunnin ennen kuin hyväksyy klikkauksen
         {
-            yield return new WaitForSeconds(1f);
+            yield return null;
             waitDone = true;
         }
 
