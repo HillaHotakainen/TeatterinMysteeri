@@ -22,6 +22,7 @@ namespace TeatterinMysteeri
 
         [SerializeField]
         private AudioMixer mixer;
+        [SerializeField] Image image;
 
         private void Start()
         {

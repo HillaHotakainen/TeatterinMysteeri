@@ -10,6 +10,7 @@ namespace TeatterinMysteeri
     public class PauseMenu : MonoBehaviour, IPointerDownHandler
     {
         public GameObject pauseMenu;
+        [SerializeField] Image dark;
         Button button;
         void Start()
         {
@@ -27,12 +28,14 @@ namespace TeatterinMysteeri
 
         public void PauseGame()
         {
+            dark.enabled = true;
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
         }
 
         public void ResumeGame()
         {
+            dark.enabled = false;
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
         }

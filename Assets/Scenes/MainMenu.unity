@@ -2346,6 +2346,7 @@ MonoBehaviour:
   musicVolumeName: 
   sfxVolumeName: 
   mixer: {fileID: 0}
+  image: {fileID: 0}
 --- !u!1 &1142768658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,6 +2654,7 @@ MonoBehaviour:
   musicVolumeName: MusicVolume
   sfxVolumeName: SFXVolume
   mixer: {fileID: 24100000, guid: 7d5334ff6c8c2104d997a02a2926beea, type: 2}
+  image: {fileID: 0}
 --- !u!114 &1200338433
 MonoBehaviour:
   m_ObjectHideFlags: 0
