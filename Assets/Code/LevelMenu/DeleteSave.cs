@@ -8,11 +8,18 @@ namespace TeatterinMysteeri
 {
     public class DeleteSave : MonoBehaviour
     {
+        private bool saveDeleted = false;
+        public bool SaveDeleted
+        {
+            get{return saveDeleted;}
+            set{saveDeleted = value;}
+        }
         public void DeletePrefs()
         {
             PlayerPrefs.DeleteAll();
             PlayerPrefs.Save();
-            LevelLoader.Current.LoadLevel("LevelSelection");
+            saveDeleted = true;
+            LevelLoader.Current.CloseOptions();
         }
     }
 }

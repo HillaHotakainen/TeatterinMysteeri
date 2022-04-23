@@ -76,7 +76,20 @@ namespace TeatterinMysteeri
 
         public void CloseOptions()
         {
-            SceneManager.UnloadSceneAsync(optionsScene);
+            DeleteSave deleteSave = FindObjectOfType<DeleteSave>();
+            if(deleteSave == null || !deleteSave.SaveDeleted)
+            {
+                SceneManager.UnloadSceneAsync(optionsScene);
+            }
+            else
+            {
+                deleteSave.SaveDeleted = false;
+                SceneManager.UnloadSceneAsync(optionsScene);
+                Debug.Log("Save deleted");
+                LoadLevel("MainMenu");
+                Time.timeScale = 1f;
+                Debug.Log("loading main menu");
+            }
         }
         private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
         {
