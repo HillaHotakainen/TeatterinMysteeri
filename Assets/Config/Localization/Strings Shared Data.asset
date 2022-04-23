@@ -87,6 +87,22 @@ MonoBehaviour:
     m_Key: KristalliTooltip
     m_Metadata:
       m_Items: []
+  - m_Id: 2180858009350144
+    m_Key: Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2180956038623232
+    m_Key: "Kyll\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2181041627590656
+    m_Key: Ei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2182097140969472
+    m_Key: DeleteSave
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

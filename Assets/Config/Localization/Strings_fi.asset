@@ -91,5 +91,21 @@ MonoBehaviour:
     m_Localized: "Jotkut ovet aukeavat, kun ohjaat valons\xE4teen kristallien l\xE4pi."
     m_Metadata:
       m_Items: []
+  - m_Id: 2180858009350144
+    m_Localized: Oletko varma?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2180956038623232
+    m_Localized: "Kyll\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2181041627590656
+    m_Localized: Ei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2182097140969472
+    m_Localized: Poista Tallennus
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
