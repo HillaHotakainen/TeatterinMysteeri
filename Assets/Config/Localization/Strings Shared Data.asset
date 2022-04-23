@@ -103,6 +103,10 @@ MonoBehaviour:
     m_Key: DeleteSave
     m_Metadata:
       m_Items: []
+  - m_Id: 2272947145535488
+    m_Key: NeedKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

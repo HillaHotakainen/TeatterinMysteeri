@@ -13,6 +13,7 @@ namespace TeatterinMysteeri
         [SerializeField]
         Sprite openDoor;                //Oven aukinainen sprite
         private GameObject hero;
+        [SerializeField] TextBox tooltip;
         private bool closeEnough;
         Collider2D hitbox;
         AudioSource audioSource;
@@ -51,6 +52,13 @@ namespace TeatterinMysteeri
                 {
                     audioSource.Play();
                     soundPlaying = true;
+                }
+            }
+            else if(closeEnough && !keyHolder.GotKey)
+            {
+                if(tooltip!=null)
+                {
+                    tooltip.StartFade();
                 }
             }
         }

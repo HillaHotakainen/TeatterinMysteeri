@@ -107,5 +107,9 @@ MonoBehaviour:
     m_Localized: Poista Tallennus
     m_Metadata:
       m_Items: []
+  - m_Id: 2272947145535488
+    m_Localized: "Tarvitset avaimen t\xE4m\xE4n oven avaamiseen!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
