@@ -70,7 +70,7 @@ namespace TeatterinMysteeri
             // liikkumiskäsky lähetetään vain, jos ollaan tarpeeksi lähellä ja laatikko ei jo liiku
             if (closeEnough & !moving) {
                 targetPos = transform.position + direction;
-                front = Physics2D.OverlapPoint(targetPos);
+                front = Physics2D.OverlapPoint(new Vector2(transform.position.x + direction.x*1.2f, transform.position.y + direction.y*1.2f)); // älä kysy
 
                 // lisäsin nyt tähän et voi työntää valonsäteen päälle kans
                 if (front == null) {

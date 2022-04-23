@@ -1,4 +1,4 @@
-// haluan pyytää henkilökohtaisesti anteeksi siltä, kuka joutuu lukemaan tämän tiedoston
+// haluan pyytää henkilökohtaisesti anteeksi siltä kuka lukee tätä
 
 using System.Collections;
 using System.Collections.Generic;
@@ -133,7 +133,7 @@ namespace TeatterinMysteeri
             }
 
             // tsekkaus onko Hero-objekti tarpeeks lähellä
-            if (Vector3.Distance(transform.position, hero.transform.position) < 2) {
+            if (Vector3.Distance(transform.position, hero.transform.position) < 2.5) {
                 closeEnough = true;
             }
             else {
