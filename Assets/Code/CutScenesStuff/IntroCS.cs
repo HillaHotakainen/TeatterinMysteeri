@@ -18,6 +18,7 @@ namespace TeatterinMysteeri
             firstDialogue.BeginText();
             yield return new WaitUntil(() => firstDialogue.TextDone);
             yield return new WaitForSeconds(1.5f);
+            PlayerPrefs.SetInt("introCS", 1);
             LevelLoader.Current.LoadLevel("LevelSelection");
         }
     }

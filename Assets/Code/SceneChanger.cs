@@ -10,6 +10,11 @@ namespace TeatterinMysteeri
     {
 
         [SerializeField] private string sceneName;
+        public string SceneName
+        {
+            get{return sceneName;}
+            set{sceneName = value;}
+        }
         [SerializeField] private string thisSceneName;
         [SerializeField] private string nextSceneName;
         public bool cantClick;
