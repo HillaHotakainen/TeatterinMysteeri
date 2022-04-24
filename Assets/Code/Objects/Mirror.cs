@@ -28,10 +28,12 @@ namespace TeatterinMysteeri
         private bool closeEnough = false;
         private SpriteRenderer spr;
         private SpriteRenderer kulmaSpr;
+        private AudioSource sound;
         void Start()
         {
             spr = gameObject.GetComponent<SpriteRenderer>();
             hero = GameObject.FindGameObjectsWithTag("Player")[0];
+            sound = gameObject.GetComponent<AudioSource>();
         }
         void Update()
         {
@@ -159,6 +161,7 @@ namespace TeatterinMysteeri
                     default:
                         break;
                 }
+                sound.Play();
             }
         }
     }

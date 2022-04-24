@@ -7,19 +7,22 @@ namespace TeatterinMysteeri
     public class MuteAtStart : MonoBehaviour
     {
         [SerializeField] float untilUnmute;
-        AudioSource audioSource;
+        AudioSource[] audioSources;
         void Start()
         {
-            audioSource = GetComponent<AudioSource>();
-            audioSource.mute = true;
+            audioSources = GetComponents<AudioSource>();
+            for (int i = 0; i < audioSources.Length; i++) {
+                audioSources[i].mute = true;
+            }
             StartCoroutine("UnMute");
         }
-
-        // Update is called once per frame
         IEnumerator UnMute()
         {
             yield return new WaitForSeconds(untilUnmute);
-            audioSource.mute = false;
+            audioSources = GetComponents<AudioSource>();
+            for (int i = 0; i < audioSources.Length; i++) {
+                audioSources[i].mute = false;
+            }
         }
     }
 }

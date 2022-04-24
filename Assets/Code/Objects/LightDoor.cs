@@ -10,14 +10,14 @@ namespace TeatterinMysteeri
         [SerializeField] Sprite closed;
         public List<LightReceiver> receivers = new List<LightReceiver>();
         private bool unlocked;
+        private bool wasUnlocked = false;
         private List<bool> receiverStatuses = new List<bool>();
         private Collider2D hitbox;
         private SpriteRenderer spr;
-        AudioSource audioSource;
-        private bool soundPlaying = false;
+        public AudioSource openSound;
+        public AudioSource closedSound;
         void Start()
         {
-            audioSource = GetComponent<AudioSource>();
             spr = GetComponent<SpriteRenderer>();
             hitbox = GetComponent<Collider2D>();
         }
@@ -36,18 +36,21 @@ namespace TeatterinMysteeri
             }
 
             if (unlocked) {
-                if(audioSource != null && !soundPlaying)
-                {
-                    audioSource.Play();
-                    soundPlaying = true;
-                }
                 spr.sprite = open;
                 hitbox.enabled = false;
             } else {
                 spr.sprite = closed;
                 hitbox.enabled = true;
-                soundPlaying = false;
             }
+
+            if (unlocked != wasUnlocked && openSound != null && closedSound != null) {
+                if (unlocked) {
+                    openSound.Play();
+                } else {
+                    closedSound.Play();
+                }
+            }
+            wasUnlocked = unlocked;
         }
     }
 }
