@@ -112,5 +112,13 @@ MonoBehaviour:
     m_Localized: You need a key to open this door!
     m_Metadata:
       m_Items: []
+  - m_Id: 2502236833017856
+    m_Localized: Level Selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505470620430336
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

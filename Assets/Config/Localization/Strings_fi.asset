@@ -111,5 +111,13 @@ MonoBehaviour:
     m_Localized: "Tarvitset avaimen t\xE4m\xE4n oven avaamiseen!"
     m_Metadata:
       m_Items: []
+  - m_Id: 2502236833017856
+    m_Localized: Tasovalikko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505470620430336
+    m_Localized: Taso
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
