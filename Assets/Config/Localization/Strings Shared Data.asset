@@ -107,6 +107,14 @@ MonoBehaviour:
     m_Key: NeedKey
     m_Metadata:
       m_Items: []
+  - m_Id: 2502236833017856
+    m_Key: LevelSelect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505470620430336
+    m_Key: Level
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
