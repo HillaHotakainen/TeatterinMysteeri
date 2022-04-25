@@ -151,5 +151,65 @@ MonoBehaviour:
     m_Localized: So you decide to close your eyes, just for a bit...
     m_Metadata:
       m_Items: []
+  - m_Id: 2577078712266752
+    m_Localized: This must be the boiler room...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2578969059913728
+    m_Localized: I can hear some noises coming from inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580473930051584
+    m_Localized: How could I lose again?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580803820449792
+    m_Localized: That's four times in a row!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2581941923868672
+    m_Localized: You must be cheating!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2584128519401472
+    m_Localized: Stop being such a sore loser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2586871275450368
+    m_Localized: Let's play another round, maybe you'll win some day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601247210467328
+    m_Localized: What in the world? Janitor?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601253799718912
+    m_Localized: Is this why you didn't want us to think there was a ghost here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2602790257160192
+    m_Localized: The ghost doesn't want to scare anyone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2609435456565248
+    m_Localized: So he wants to stay hidden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2610501719945216
+    m_Localized: If you can keep a secret, I'll let you join our game nights.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2613012405153792
+    m_Localized: I like the sound of that!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2652885375774720
+    m_Localized: Thanks for playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653017890615296
+    m_Localized: "back to main menu\t"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
