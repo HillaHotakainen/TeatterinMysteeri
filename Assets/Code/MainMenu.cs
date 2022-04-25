@@ -26,5 +26,10 @@ namespace TeatterinMysteeri
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
+        public void ExitApplication()
+        {
+            Debug.Log("neekeri");
+            Application.Quit();
+        }
     }
 }
