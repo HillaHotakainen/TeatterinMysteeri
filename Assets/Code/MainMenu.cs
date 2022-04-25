@@ -28,7 +28,6 @@ namespace TeatterinMysteeri
         }
         public void ExitApplication()
         {
-            Debug.Log("neekeri");
             Application.Quit();
         }
     }
