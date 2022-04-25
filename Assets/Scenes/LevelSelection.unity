@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &23522344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7944838724238612206, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+  m_PrefabInstance: {fileID: 1998095425}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1148a8eb083e9a74186a59bc212b9b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &174176757 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3183900462351300746, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
@@ -2031,6 +2042,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340990076}
   m_CullTransparentMesh: 1
+--- !u!114 &1461059206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7944838724238612206, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+  m_PrefabInstance: {fileID: 1526085212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1148a8eb083e9a74186a59bc212b9b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1470077201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2497,6 +2519,38 @@ PrefabInstance:
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1461059206}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PressSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TeatterinMysteeri.LevelSelection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909827119687, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_text
@@ -3320,6 +3374,38 @@ PrefabInstance:
     - target: {fileID: 6765203909306799430, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 23522344}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PressSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TeatterinMysteeri.LevelSelection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765203909306799431, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6765203909827119687, guid: c3ac096a92e4482468e005fc4fe6c60a, type: 3}
       propertyPath: m_text
