@@ -147,6 +147,66 @@ MonoBehaviour:
     m_Key: IntroCS6
     m_Metadata:
       m_Items: []
+  - m_Id: 2577078712266752
+    m_Key: EndingCS1-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2578969059913728
+    m_Key: EndingCS1-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580473930051584
+    m_Key: EndingCS2-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580803820449792
+    m_Key: EndingCS2-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2581941923868672
+    m_Key: EndingCS2-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2584128519401472
+    m_Key: EndingCS3-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2586871275450368
+    m_Key: EndingCS3-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601247210467328
+    m_Key: EndingCS4-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601253799718912
+    m_Key: EndingCS4-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2602790257160192
+    m_Key: EndingCS5-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2609435456565248
+    m_Key: EndingCS5-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2610501719945216
+    m_Key: EndingCS5-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2613012405153792
+    m_Key: EndingCS6-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2652885375774720
+    m_Key: Thanks for playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653017890615296
+    m_Key: Takaisin Main Menuun
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

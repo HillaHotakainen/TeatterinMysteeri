@@ -156,5 +156,65 @@ MonoBehaviour:
     m_Localized: "P\xE4\xE4t\xE4t siis sulkea silm\xE4si hetkeksi..."
     m_Metadata:
       m_Items: []
+  - m_Id: 2577078712266752
+    m_Localized: "T\xE4m\xE4 on varmaan se pannuhuone..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2578969059913728
+    m_Localized: "Sis\xE4lt\xE4 kuuluu jotain \xE4\xE4ni\xE4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580473930051584
+    m_Localized: "Miten min\xE4 voin taas h\xE4vit\xE4?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2580803820449792
+    m_Localized: "Nelj\xE4s kerta putkeen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2581941923868672
+    m_Localized: "Sin\xE4 huijaat!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2584128519401472
+    m_Localized: "\xC4l\xE4 ole huono h\xE4vi\xE4j\xE4."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2586871275450368
+    m_Localized: "Pelataan uusi kierros, ehk\xE4 voitat viel\xE4 joskus."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601247210467328
+    m_Localized: "Mit\xE4 ihmett\xE4? Vahtimestari?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2601253799718912
+    m_Localized: "Miksi yritit uskotella, ett\xE4 t\xE4\xE4ll\xE4 ei ole kummitusta?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2602790257160192
+    m_Localized: Kummitus ei halua pelotella muita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2609435456565248
+    m_Localized: "Joten h\xE4n yritt\xE4\xE4 pysytell\xE4 piilossa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2610501719945216
+    m_Localized: "Jos pystyt pit\xE4m\xE4\xE4n salaisuuden, p\xE4\xE4set mukaan peli-iltoihimme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2613012405153792
+    m_Localized: "Kuulostaa hyv\xE4lt\xE4!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2652885375774720
+    m_Localized: Kiitos pelaamisesta!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653017890615296
+    m_Localized: "takaisin p\xE4\xE4valikkoon"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
