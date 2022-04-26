@@ -120,5 +120,17 @@ MonoBehaviour:
     m_Localized: Level
     m_Metadata:
       m_Items: []
+  - m_Id: 3241032941826048
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241287993257984
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3242398242304000
+    m_Localized: You can rotate mirrors by moving next to them and tapping on it.
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

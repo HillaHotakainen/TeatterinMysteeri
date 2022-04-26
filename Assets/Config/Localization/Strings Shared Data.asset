@@ -115,6 +115,18 @@ MonoBehaviour:
     m_Key: Level
     m_Metadata:
       m_Items: []
+  - m_Id: 3241032941826048
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241287993257984
+    m_Key: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3242398242304000
+    m_Key: PeiliTooltip
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

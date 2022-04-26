@@ -119,5 +119,18 @@ MonoBehaviour:
     m_Localized: Taso
     m_Metadata:
       m_Items: []
+  - m_Id: 3241032941826048
+    m_Localized: Musiikki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241287993257984
+    m_Localized: "\xC4\xE4niefektit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3242398242304000
+    m_Localized: "Voit k\xE4\xE4nt\xE4\xE4 peili\xE4 siirtym\xE4ll\xE4 sen viereen
+      ja painamalla sit\xE4 sormellasi."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
