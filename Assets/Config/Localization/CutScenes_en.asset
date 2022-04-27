@@ -43,7 +43,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2929280151552
-    m_Localized: I better go find out!
+    m_Localized: I'd better go find out!
     m_Metadata:
       m_Items: []
   - m_Id: 3756942159872
@@ -51,15 +51,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3763279753216
-    m_Localized: I really don't like those flashlights, I better avoid those lights.
+    m_Localized: I really don't like those flashlights, I'd better avoid them.
     m_Metadata:
       m_Items: []
   - m_Id: 4537497939968
-    m_Localized: Did anyone see me?
+    m_Localized: I wonder if anyone saw me...
     m_Metadata:
       m_Items: []
   - m_Id: 5803456327680
-    m_Localized: I think I saw the ghost somwhere around here...
+    m_Localized: I think I saw the ghost go somewhere around here...
     m_Metadata:
       m_Items: []
   - m_Id: 6220508557312
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6689700179968
-    m_Localized: I'm sorry, but I think I saw a ghost around here
+    m_Localized: I'm sorry, mister janitor, but I think I saw a ghost around here...
     m_Metadata:
       m_Items: []
   - m_Id: 7082345754624
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7266425368576
-    m_Localized: I better go take a look, you should go home too!
+    m_Localized: I'd better go take a look, and you should go home too!
     m_Metadata:
       m_Items: []
   - m_Id: 8423197634560
@@ -103,11 +103,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9688170360832
-    m_Localized: I better be careful around those light projectors.
+    m_Localized: I'd better be careful around those light projectors.
     m_Metadata:
       m_Items: []
   - m_Id: 9752959774720
-    m_Localized: Ghosts and bright lights aren't a good combination.
+    m_Localized: Ghosts and bright lights aren't the best combination.
     m_Metadata:
       m_Items: []
   - m_Id: 10301847367680
@@ -119,11 +119,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10559109197824
-    m_Localized: I guess they don't want people wandering around here.
+    m_Localized: I guess they don't want people wandering around this area.
     m_Metadata:
       m_Items: []
   - m_Id: 10583184502784
-    m_Localized: I have to be careful around them.
+    m_Localized: I need to try to sneak around them...
     m_Metadata:
       m_Items: []
   - m_Id: 342574585081856
@@ -131,8 +131,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 342799504633856
-    m_Localized: You're a new employee at the theatre, breathing life into a brand
-      new performance.
+    m_Localized: You're a brand new employee at the theatre, helping with a new performance.
     m_Metadata:
       m_Items: []
   - m_Id: 343639665668096
@@ -160,7 +159,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2580473930051584
-    m_Localized: How could I lose again?!
+    m_Localized: How can I lose again?!
     m_Metadata:
       m_Items: []
   - m_Id: 2580803820449792
@@ -184,11 +183,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2601253799718912
-    m_Localized: Is this why you didn't want us to think there was a ghost here?
+    m_Localized: Is this why you wanted me to think there wasn't a ghost here?
     m_Metadata:
       m_Items: []
   - m_Id: 2602790257160192
-    m_Localized: The ghost doesn't want to scare anyone.
+    m_Localized: Well... the ghost doesn't want to scare anyone.
     m_Metadata:
       m_Items: []
   - m_Id: 2609435456565248
@@ -208,7 +207,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2653017890615296
-    m_Localized: "back to main menu\t"
+    m_Localized: "Back to main menu\t"
     m_Metadata:
       m_Items: []
   references:

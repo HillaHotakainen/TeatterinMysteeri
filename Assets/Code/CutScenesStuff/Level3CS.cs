@@ -70,7 +70,7 @@ namespace TeatterinMysteeri
             yield return new WaitForSeconds(1.0f);
             cameraFollow.Target = vahtiMestari.transform;
             fourthDialogue.BeginText();
-            yield return new WaitForSeconds(4.0f);
+            yield return new WaitForSeconds(3.5f);
             vmMover.MoveInput = Vector2.down;
             crashSound.Play();
             yield return new WaitForSeconds(4.5f);
@@ -95,10 +95,10 @@ namespace TeatterinMysteeri
         IEnumerator MoveCharacter()
         {
             Vector2 heroposition = inputProcessor.transform.position;
-            while (heroposition != (new Vector2(-3.5f, 1.8f)))
+            while (heroposition != (new Vector2(-3.5f, 1.5f)))
             {
                 characterControl.MoveInput = Vector2.up;
-                heroposition = Vector2.MoveTowards(heroposition, new Vector2(-3.5f, 1.8f), 1.2f * Time.deltaTime);
+                heroposition = Vector2.MoveTowards(heroposition, new Vector2(-3.5f, 1.5f), 1.2f * Time.deltaTime);
                 inputProcessor.transform.position = heroposition;
                 yield return null;
             }
@@ -129,7 +129,7 @@ namespace TeatterinMysteeri
             vmSprite.enabled = true;
             cameraFollow.Target = vahtiMestari.transform;
             Vector2 vmPos = vahtiMestari.transform.position;
-            Vector2 target1 = new Vector2(-1.5f, 2f);
+            Vector2 target1 = new Vector2(-1.5f, 1.5f);
             vmMover.Speed = 1.0f;
             vmMover.MoveInput = Vector2.up;
             while (vmPos != target1)

@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11839229620224
-    m_Localized: "Jatka Peli\xE4"
+    m_Localized: "Jatka peli\xE4"
     m_Metadata:
       m_Items: []
   - m_Id: 11929109360640
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 42633432100864
-    m_Localized: Krediitit
+    m_Localized: "Tekij\xE4t"
     m_Metadata:
       m_Items: []
   - m_Id: 42735286579200
@@ -104,7 +104,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2182097140969472
-    m_Localized: Poista Tallennus
+    m_Localized: Poista tallennus
     m_Metadata:
       m_Items: []
   - m_Id: 2272947145535488
@@ -129,7 +129,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3242398242304000
     m_Localized: "Voit k\xE4\xE4nt\xE4\xE4 peili\xE4 siirtym\xE4ll\xE4 sen viereen
-      ja painamalla sit\xE4 sormellasi."
+      ja painamalla sit\xE4."
     m_Metadata:
       m_Items: []
   references:

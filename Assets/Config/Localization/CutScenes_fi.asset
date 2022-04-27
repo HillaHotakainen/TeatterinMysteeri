@@ -52,8 +52,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3763279753216
-    m_Localized: "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi v\xE4istell\xE4
-      valoja."
+    m_Localized: "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi olla varovainen."
     m_Metadata:
       m_Items: []
   - m_Id: 4537497939968
@@ -61,7 +60,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5803456327680
-    m_Localized: "Se haamu taisi tulla t\xE4nne p\xE4in..."
+    m_Localized: "Se haamu taisi menn\xE4 t\xE4nne p\xE4in..."
     m_Metadata:
       m_Items: []
   - m_Id: 6220508557312
@@ -73,7 +72,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6689700179968
-    m_Localized: "Anteeksi, mutta olen melko varma ett\xE4 n\xE4in kummituksen t\xE4\xE4ll\xE4"
+    m_Localized: "Anteeksi herra talonmies, mutta olen melko varma ett\xE4 n\xE4in
+      kummituksen t\xE4\xE4ll\xE4..."
     m_Metadata:
       m_Items: []
   - m_Id: 7082345754624
@@ -81,7 +81,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7130215346176
-    m_Localized: "*r\xE4ks*"
+    m_Localized: '*pum*'
     m_Metadata:
       m_Items: []
   - m_Id: 7212096548864
@@ -89,11 +89,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7266425368576
-    m_Localized: "Pakko menn\xE4 katsomaan, l\xE4hde sin\xE4kin kotiin siit\xE4!"
+    m_Localized: "Pakko menn\xE4 katsomaan, painu sin\xE4kin kotiin siit\xE4!"
     m_Metadata:
       m_Items: []
   - m_Id: 8423197634560
-    m_Localized: "Miksik\xF6h\xE4n h\xE4n meni noin vaikeaksi kun mainitsin haamun?"
+    m_Localized: "Miksik\xF6h\xE4n h\xE4n meni noin vaikeaksi kun mainitsin kummituksen?"
     m_Metadata:
       m_Items: []
   - m_Id: 8427756843008
@@ -109,7 +109,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9752959774720
-    m_Localized: "Haamut ja kirkkaat valot eiv\xE4t ole hyv\xE4 yhdistelm\xE4."
+    m_Localized: "Haamut ja kirkkaat valot eiv\xE4t mene hyvin yhteen."
     m_Metadata:
       m_Items: []
   - m_Id: 10301847367680
@@ -125,7 +125,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10583184502784
-    m_Localized: "Pit\xE4\xE4 varoa heit\xE4."
+    m_Localized: "Pit\xE4\xE4 koittaa hiippailla heid\xE4n ohitseen..."
     m_Metadata:
       m_Items: []
   - m_Id: 342574585081856
@@ -148,7 +148,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 347864013467648
-    m_Localized: "Tuntuu, ett\xE4 et jaksa liikkua mihink\xE4\xE4n josset saa otettua
+    m_Localized: "Tuntuu, ettet jaksa liikkua mihink\xE4\xE4n, jos et saa otettua
       pieni\xE4 torkkuja."
     m_Metadata:
       m_Items: []
@@ -185,15 +185,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2601247210467328
-    m_Localized: "Mit\xE4 ihmett\xE4? Vahtimestari?!"
+    m_Localized: "Mit\xE4 ihmett\xE4? Talonmies?!"
     m_Metadata:
       m_Items: []
   - m_Id: 2601253799718912
-    m_Localized: "Miksi yritit uskotella, ett\xE4 t\xE4\xE4ll\xE4 ei ole kummitusta?"
+    m_Localized: "T\xE4m\xE4nk\xF6 takia yritit uskotella, ett\xE4 t\xE4\xE4ll\xE4
+      ei ole kummitusta?"
     m_Metadata:
       m_Items: []
   - m_Id: 2602790257160192
-    m_Localized: Kummitus ei halua pelotella muita.
+    m_Localized: Noh... kummitus ei halua pelotella muita.
     m_Metadata:
       m_Items: []
   - m_Id: 2609435456565248
@@ -201,7 +202,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2610501719945216
-    m_Localized: "Jos pystyt pit\xE4m\xE4\xE4n salaisuuden, p\xE4\xE4set mukaan peli-iltoihimme."
+    m_Localized: "Jos pystyt pit\xE4m\xE4\xE4n salaisuuden, voit liitty\xE4 peli-iltoihimme."
     m_Metadata:
       m_Items: []
   - m_Id: 2613012405153792
@@ -213,7 +214,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2653017890615296
-    m_Localized: "takaisin p\xE4\xE4valikkoon"
+    m_Localized: "Takaisin p\xE4\xE4valikkoon"
     m_Metadata:
       m_Items: []
   references:

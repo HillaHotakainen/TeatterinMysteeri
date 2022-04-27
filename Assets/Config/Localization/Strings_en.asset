@@ -59,8 +59,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20594767917056
-    m_Localized: You can push the box by moving next to it, and pressing it with
-      your finger.
+    m_Localized: You can push the box by moving next to it, and tapping it with your
+      finger.
     m_Metadata:
       m_Items: []
   - m_Id: 21299306131456
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56629996515328
-    m_Localized: Some doors only open when you shine a beam of light towards a crystal.
+    m_Localized: Some doors open when you guide a beam of light through a crystal.
     m_Metadata:
       m_Items: []
   - m_Id: 2180858009350144
@@ -105,7 +105,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2182097140969472
-    m_Localized: Delete Save
+    m_Localized: Delete save data
     m_Metadata:
       m_Items: []
   - m_Id: 2272947145535488
@@ -129,7 +129,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3242398242304000
-    m_Localized: You can rotate mirrors by moving next to them and tapping on it.
+    m_Localized: You can rotate a mirror by tapping it when you're next to it.
     m_Metadata:
       m_Items: []
   references:
