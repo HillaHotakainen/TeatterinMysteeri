@@ -78,8 +78,8 @@ namespace TeatterinMysteeri
 
             // katsotaan onko oikeista suunnista tulossa valoa
             // pahoittelen noista erittäin rumista null checkeistä mutta unity
-            var verCheck = Physics2D.OverlapPoint(transform.position + sideVer);
-            var horCheck = Physics2D.OverlapPoint(transform.position + sideHor);
+            var verCheck = Physics2D.OverlapPoint(transform.position + sideVer, 1 << 10);
+            var horCheck = Physics2D.OverlapPoint(transform.position + sideHor, 1 << 10);
             
             if (verCheck != null) {
                 var verTest = verCheck.GetComponent<LightBeamVertical>();
