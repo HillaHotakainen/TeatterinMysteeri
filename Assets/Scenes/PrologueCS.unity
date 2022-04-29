@@ -854,7 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 1797338171}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - zzz...
