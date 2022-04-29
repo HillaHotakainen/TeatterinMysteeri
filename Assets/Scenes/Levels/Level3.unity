@@ -787,7 +787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 1883205807}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "Miksik\xF6h\xE4n h\xE4n meni noin vaikeaksi kun mainitsin haamun..."
@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 1650705598}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "Kuka siell\xE4?!"
@@ -1338,8 +1338,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -1788,7 +1792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontSize
-      value: 54
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontColor.a
@@ -1796,15 +1800,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontSizeBase
-      value: 54
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -2245,7 +2253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 804926044}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "Anteeksi, mutta olen melko varma ett\xE4 n\xE4in kummituksen t\xE4\xE4ll\xE4"
@@ -2345,7 +2353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 758090223}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "Se haamu taisi tulla t\xE4nne p\xE4in..."
@@ -3563,7 +3571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 627232797}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 0.7
   stringArray:
   - "Ei t\xE4\xE4ll\xE4 mit\xE4\xE4n kummituksia ole!"
@@ -3773,8 +3781,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -4442,8 +4454,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -10827,8 +10843,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}

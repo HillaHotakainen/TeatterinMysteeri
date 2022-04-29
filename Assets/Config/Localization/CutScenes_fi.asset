@@ -52,7 +52,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3763279753216
-    m_Localized: "En kyll\xE4 tykk\xE4\xE4 heid\xE4n lampuistaan, parempi olla varovainen."
+    m_Localized: "En halua pel\xE4stytt\xE4\xE4 ket\xE4\xE4n, parempi v\xE4ltell\xE4
+      heit\xE4."
     m_Metadata:
       m_Items: []
   - m_Id: 4537497939968
@@ -72,8 +73,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6689700179968
-    m_Localized: "Anteeksi herra talonmies, mutta olen melko varma ett\xE4 n\xE4in
-      kummituksen t\xE4\xE4ll\xE4..."
+    m_Localized: "Anteeksi herra talonmies, mutta olen varma ett\xE4 n\xE4in kummituksen
+      t\xE4\xE4ll\xE4..."
     m_Metadata:
       m_Items: []
   - m_Id: 7082345754624
@@ -133,8 +134,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 342799504633856
-    m_Localized: "Olet uusi teatterity\xF6ntekij\xE4, ja olet tullut auttamaan uuden
-      n\xE4yt\xF6ksen luomisessa."
+    m_Localized: "Olet uusi ty\xF6ntekij\xE4, ja olet tullut auttamaan uuden teatteriesityksen
+      luomisessa."
     m_Metadata:
       m_Items: []
   - m_Id: 343639665668096
@@ -215,6 +216,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2653017890615296
     m_Localized: "Takaisin p\xE4\xE4valikkoon"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3943792146378752
+    m_Localized: "Ah, ymm\xE4rr\xE4n\u2026 "
     m_Metadata:
       m_Items: []
   references:

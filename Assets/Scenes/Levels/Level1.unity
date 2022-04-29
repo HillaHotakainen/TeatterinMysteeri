@@ -18495,8 +18495,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -19428,7 +19432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 2121744649}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - Hui!
@@ -23541,7 +23545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 96433374}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - zzz...
@@ -24539,8 +24543,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}

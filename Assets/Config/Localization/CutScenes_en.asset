@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3763279753216
-    m_Localized: I really don't like those flashlights, I'd better avoid them.
+    m_Localized: I really don't want to scare anyone, I'd better avoid them.
     m_Metadata:
       m_Items: []
   - m_Id: 4537497939968
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6689700179968
-    m_Localized: I'm sorry, mister janitor, but I think I saw a ghost around here...
+    m_Localized: I'm sorry mr janitor, but I think I saw a ghost around here...
     m_Metadata:
       m_Items: []
   - m_Id: 7082345754624
@@ -208,6 +208,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2653017890615296
     m_Localized: "Back to main menu\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3943792146378752
+    m_Localized: Oh... I understand...
     m_Metadata:
       m_Items: []
   references:

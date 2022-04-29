@@ -22530,8 +22530,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}
@@ -23308,7 +23312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 2121744649}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "N\xE4kik\xF6h\xE4n joku minut?"
@@ -28504,7 +28508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmptext: {fileID: 96433374}
   delayAfter: 1
-  timeBetweenCharacters: 0.07
+  timeBetweenCharacters: 0.05
   secondsBeforeDestroy: 1
   stringArray:
   - "Huh huh, t\xE4\xE4ll\xE4h\xE4n on t\xE4n\xE4 y\xF6n\xE4 paljon vartijoita."
@@ -29708,7 +29712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontSize
-      value: 60
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontAsset
@@ -29720,7 +29724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_fontSizeBase
-      value: 60
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_sharedMaterial
@@ -29731,8 +29735,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225027550765326381, guid: 502f5d8564496dc469f225693118f91d, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502f5d8564496dc469f225693118f91d, type: 3}

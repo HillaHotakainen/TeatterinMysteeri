@@ -18,6 +18,8 @@ namespace TeatterinMysteeri
         [SerializeField] MultiTextBox fourthDialogue;
         [SerializeField] MultiTextBox fifthDialogue;
         [SerializeField] MultiTextBox sixthDialogue;
+        [SerializeField] MultiTextBox seventhDialogue;
+        [SerializeField] MultiTextBox eigthDialogue;
         [SerializeField] Sprite standingUp;
         [SerializeField] SpriteRenderer vahtiMestari;
         [SerializeField] GameObject kummitus;
@@ -70,6 +72,14 @@ namespace TeatterinMysteeri
             cameraFollow.Target = inputProcessor.transform;
             sixthDialogue.BeginText();
             yield return new WaitUntil(() => sixthDialogue.TextDone);
+            yield return new WaitForSeconds(1.0f);
+            cameraFollow.Target = vahtiMestari.transform;
+            seventhDialogue.BeginText();
+            yield return new WaitUntil(() => seventhDialogue.TextDone);
+            yield return new WaitForSeconds(1.0f);
+            cameraFollow.Target = inputProcessor.transform;
+            eigthDialogue.BeginText();
+            yield return new WaitUntil(() => eigthDialogue.TextDone);
             yield return new WaitForSeconds(1.0f);
             StartCoroutine("Fade");
         }
