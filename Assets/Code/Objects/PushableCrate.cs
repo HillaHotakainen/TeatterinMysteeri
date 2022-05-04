@@ -70,19 +70,12 @@ namespace TeatterinMysteeri
             // liikkumiskäsky lähetetään vain, jos ollaan tarpeeksi lähellä ja laatikko ei jo liiku
             if (closeEnough & !moving) {
                 targetPos = transform.position + direction;
-                front = Physics2D.OverlapPoint(new Vector2(transform.position.x + direction.x*1.2f, transform.position.y + direction.y*1.2f)); // älä kysy
+                front = Physics2D.OverlapPoint(targetPos, ~(1 << 10));
 
-                // lisäsin nyt tähän et voi työntää valonsäteen päälle kans
                 if (front == null) {
                     moving = true;
                 } else {
-                    var test1 = front.GetComponent<LightBeamVertical>();
-                    var test2 = front.GetComponent<LightBeamHorizontal>();
-                    if (test1 != null | test2 != null) {
-                        moving = true;
-                    } else {
-                        Debug.Log("The crate can't be pushed there!");
-                    }
+                    Debug.Log("The crate can't be pushed there!");
                 }
             }
             if (closeEnough && moving && audio != null)
